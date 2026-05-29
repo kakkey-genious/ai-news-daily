@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>今日のAIニュース | 2026-05-29</title>
+  <style>
+    :root {
+      --bg: #f4f6f9;
+      --card-bg: #ffffff;
+      --text: #1a1a2e;
+      --subtext: #6b7280;
+      --border: #e5e7eb;
+      --header-bg: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f172a;
+        --card-bg: #1e293b;
+        --text: #e2e8f0;
+        --subtext: #94a3b8;
+        --border: #334155;
+      }
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Hiragino Sans', 'Noto Sans JP', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    header {
+      background: var(--header-bg);
+      color: #ffffff;
+      padding: 2.5rem 1.5rem;
+      text-align: center;
+    }
+
+    header .back-link {
+      display: inline-block;
+      color: rgba(255,255,255,0.75);
+      text-decoration: none;
+      font-size: 0.875rem;
+      margin-bottom: 1rem;
+      transition: color 0.2s;
+    }
+
+    header .back-link:hover {
+      color: #ffffff;
+    }
+
+    header h1 {
+      font-size: 1.75rem;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+    }
+
+    header .date {
+      font-size: 1rem;
+      color: rgba(255,255,255,0.7);
+      margin-top: 0.4rem;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin-bottom: 1.25rem;
+      transition: box-shadow 0.2s;
+    }
+
+    .card:hover {
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    }
+
+    .card-header {
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .card-number {
+      flex-shrink: 0;
+      width: 2rem;
+      height: 2rem;
+      background: var(--header-bg);
+      color: #fff;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.85rem;
+      font-weight: 700;
+    }
+
+    .card-title-area {
+      flex: 1;
+    }
+
+    .card-title {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--text);
+      line-height: 1.4;
+      margin-bottom: 0.25rem;
+    }
+
+    .card-meta {
+      font-size: 0.8rem;
+      color: var(--subtext);
+    }
+
+    .card-summary {
+      font-size: 0.9rem;
+      color: var(--text);
+      margin: 0.75rem 0;
+      line-height: 1.7;
+    }
+
+    .card-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: 1rem;
+      padding-top: 0.75rem;
+      border-top: 1px solid var(--border);
+    }
+
+    .tag {
+      display: inline-block;
+      padding: 0.2rem 0.65rem;
+      border-radius: 999px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: #fff;
+    }
+
+    .tag-blue   { background: #3b82f6; }
+    .tag-purple { background: #8b5cf6; }
+    .tag-orange { background: #f59e0b; }
+    .tag-red    { background: #ef4444; }
+
+    .card-reason {
+      font-size: 0.78rem;
+      color: var(--subtext);
+      font-style: italic;
+    }
+
+    .read-more {
+      display: inline-block;
+      font-size: 0.82rem;
+      color: #3b82f6;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .read-more:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.8rem;
+      color: var(--subtext);
+      border-top: 1px solid var(--border);
+      margin-top: 1rem;
+    }
+
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.4rem; }
+      .card-footer { flex-direction: column; align-items: flex-start; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <a href="index.html" class="back-link">← 一覧に戻る</a>
+  <h1>📰 今日のAIニュース</h1>
+  <div class="date">2026年5月29日（金）</div>
+</header>
+
+<main>
+
+  <!-- Card 1 -->
+  <article class="card">
+    <div class="card-header">
+      <div class="card-number">1</div>
+      <div class="card-title-area">
+        <div class="card-title">YouTubeがAI生成動画を自動検出・ラベル付け開始——クリエイターが未申告でも強制表示へ</div>
+        <div class="card-meta">9to5Google &nbsp;·&nbsp; 2026-05-27</div>
+      </div>
+    </div>
+    <div class="card-summary">
+      YouTubeがAI生成コンテンツの自動検出と強制ラベル付けを開始。クリエイターが未申告でも、フォトリアルなAI生成映像を検出してプレイヤー直下に目立つラベルを表示する。誤検出の場合はYouTube Studioで申請可能。YouTubeのVeoやDream Screenなど自社AIツールで制作したコンテンツは永続的にラベルが付く仕様。
+    </div>
+    <div class="card-footer">
+      <span class="tag tag-red">YouTube</span>
+      <span class="card-reason">YouTubeクリエイターに直接影響する重要なポリシー変更</span>
+      <a class="read-more" href="https://9to5google.com/2026/05/27/youtube-updating-ai-content-labels/" target="_blank" rel="noopener">元記事を読む →</a>
+    </div>
+  </article>
+
+  <!-- Card 2 -->
+  <article class="card">
+    <div class="card-header">
+      <div class="card-number">2</div>
+      <div class="card-title-area">
+        <div class="card-title">Docker、AIエージェント「Gordon」を正式リリース——無料でコンテナのデバッグ・最適化が可能に</div>
+        <div class="card-meta">Docker Blog &nbsp;·&nbsp; 2026-05-19</div>
+      </div>
+    </div>
+    <div class="card-summary">
+      DockerがAIエージェント「Gordon」を一般公開。Docker Desktop 4.74以降とCLIに統合され、実行中のコンテナログや設定ファイルを自動解析してデバッグ・修正提案・Dockerfile生成を実行する。全アクションは事前承認が必須で、無料アカウントでも利用可能。月額20ドルのGordon Plusで処理能力が2倍に。
+    </div>
+    <div class="card-footer">
+      <span class="tag tag-blue">実務活用</span>
+      <span class="card-reason">開発者の日常業務を変える実用的AIツールの正式リリース</span>
+      <a class="read-more" href="https://www.docker.com/blog/meet-gordon-dockers-ai-agent-for-your-entire-container-workflow/" target="_blank" rel="noopener">元記事を読む →</a>
+    </div>
+  </article>
+
+  <!-- Card 3 -->
+  <article class="card">
+    <div class="card-header">
+      <div class="card-number">3</div>
+      <div class="card-title-area">
+        <div class="card-title">OpenAI「Sora」が終了——Runway Gen-4・Kling v3・Google Veo 3.1が市場をリードする新時代へ</div>
+        <div class="card-meta">eWeek &nbsp;·&nbsp; 2026-05月</div>
+      </div>
+    </div>
+    <div class="card-summary">
+      OpenAIがSoraを2026年4月26日に終了。1日1500万ドルのコスト対比でわずか210万ドルの生涯収益が限界だった。後継市場ではRunway Gen-4が映像制作向けに躍進、Google Veo 3.1が真4K・60fps・音声同期生成に対応、Kling 3.0が最大2分の動画生成でSoraの制約を克服。Kling v3はリーダーボードでトップスコア2097を記録。
+    </div>
+    <div class="card-footer">
+      <span class="tag tag-purple">動画編集</span>
+      <span class="card-reason">映像制作者が知るべきAI動画ツール市場の最新勢力図</span>
+      <a class="read-more" href="https://www.eweek.com/news/sora-alternatives-ai-video-tools-2026/" target="_blank" rel="noopener">元記事を読む →</a>
+    </div>
+  </article>
+
+  <!-- Card 4 -->
+  <article class="card">
+    <div class="card-header">
+      <div class="card-number">4</div>
+      <div class="card-title-area">
+        <div class="card-title">AnthropicのAI「Mythos」が1万件超の脆弱性を発見——wolfSSLの証明書偽造ゼロデイも検出</div>
+        <div class="card-meta">gHacks Tech News &nbsp;·&nbsp; 2026-05-26</div>
+      </div>
+    </div>
+    <div class="card-summary">
+      Anthropicが開発したAIエージェント「Claude Mythos」が、主要OSやブラウザなど世界で最も重要なソフトウェアから1万件超の高・重大度脆弱性を自動発見。数十億台が使うwolfSSL暗号ライブラリでは証明書偽造を可能にするゼロデイを検出。パートナー企業のバグ発見率は10倍以上に向上。将来的な一般公開も検討中。
+    </div>
+    <div class="card-footer">
+      <span class="tag tag-orange">意外な活用</span>
+      <span class="card-reason">AIがセキュリティ分野で人間を桁違いのスピードで凌駕した衝撃事例</span>
+      <a class="read-more" href="https://www.ghacks.net/2026/05/26/anthropic-plans-public-release-of-mythos-class-ai-bug-finder-once-safeguards-are-ready/" target="_blank" rel="noopener">元記事を読む →</a>
+    </div>
+  </article>
+
+  <!-- Card 5 -->
+  <article class="card">
+    <div class="card-header">
+      <div class="card-number">5</div>
+      <div class="card-title-area">
+        <div class="card-title">Meta、AI集中投資で8000人削減・7000人をAI部門へ異動——2026年設備投資は最大1350億ドルに</div>
+        <div class="card-meta">The Next Web &nbsp;·&nbsp; 2026-05-20</div>
+      </div>
+    </div>
+    <div class="card-summary">
+      MetaがAI戦略強化のため全社員の10%にあたる8000人を削減し、追加で7000人をAI専門チームへ異動させる大規模再編を実施。「AIビルダー」「AIポッドリード」などの新職種を設けLlamaモデルと推薦システムの開発を加速する。同社の2026年設備投資はGPU・データセンター拡張で最大1350億ドルと前年比約2倍の見通し。
+    </div>
+    <div class="card-footer">
+      <span class="tag tag-blue">実務活用</span>
+      <span class="card-reason">AI投資への大規模シフトがビジネス・雇用に与える影響を示す最前線事例</span>
+      <a class="read-more" href="https://thenextweb.com/news/meta-layoffs-8000-ai-restructuring-may-2026" target="_blank" rel="noopener">元記事を読む →</a>
+    </div>
+  </article>
+
+</main>
+
+<footer>
+  AI News Daily &nbsp;·&nbsp; Generated by Claude &nbsp;·&nbsp; kakkey-genious
+</footer>
+
+</body>
+</html>
