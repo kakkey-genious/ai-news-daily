@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>📰 今日のAIニュース | 2026-05-30</title>
+  <style>
+    :root {
+      --bg: #f4f6f9;
+      --card-bg: #ffffff;
+      --text: #1a1a2e;
+      --subtext: #6b7280;
+      --border: #e5e7eb;
+      --header-bg: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f172a;
+        --card-bg: #1e293b;
+        --text: #e2e8f0;
+        --subtext: #94a3b8;
+        --border: #334155;
+      }
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Hiragino Sans', 'Noto Sans JP', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--header-bg);
+      color: #ffffff;
+      padding: 2.5rem 1.5rem 2rem;
+      text-align: center;
+    }
+
+    header .back-link {
+      display: inline-block;
+      margin-bottom: 1.2rem;
+      color: rgba(255,255,255,0.7);
+      text-decoration: none;
+      font-size: 0.9rem;
+      transition: color 0.2s;
+    }
+    header .back-link:hover { color: #ffffff; }
+
+    header h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      margin-bottom: 0.4rem;
+    }
+
+    header .date-label {
+      font-size: 1rem;
+      color: rgba(255,255,255,0.75);
+      letter-spacing: 0.05em;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 2.5rem auto;
+      padding: 0 1.2rem 3rem;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.5rem 1.6rem;
+      margin-bottom: 1.5rem;
+      transition: box-shadow 0.2s;
+    }
+    .card:hover {
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    }
+
+    .card-header {
+      display: flex;
+      align-items: center;
+      gap: 0.8rem;
+      margin-bottom: 0.75rem;
+      flex-wrap: wrap;
+    }
+
+    .card-number {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      background: var(--header-bg);
+      color: #fff;
+      font-size: 0.85rem;
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+
+    .tag {
+      display: inline-block;
+      padding: 0.2rem 0.65rem;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: #fff;
+      letter-spacing: 0.03em;
+    }
+    .tag-blue   { background: #3b82f6; }
+    .tag-purple { background: #8b5cf6; }
+    .tag-orange { background: #f59e0b; }
+    .tag-red    { background: #ef4444; }
+
+    .card-title {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 0.4rem;
+      line-height: 1.45;
+    }
+
+    .card-meta {
+      font-size: 0.82rem;
+      color: var(--subtext);
+      margin-bottom: 0.75rem;
+    }
+    .card-meta span + span::before {
+      content: " · ";
+    }
+
+    .card-summary {
+      font-size: 0.95rem;
+      color: var(--text);
+      margin-bottom: 0.9rem;
+      line-height: 1.7;
+    }
+
+    .card-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .reason {
+      font-size: 0.8rem;
+      color: var(--subtext);
+      font-style: italic;
+      flex: 1;
+    }
+
+    .read-more {
+      display: inline-block;
+      padding: 0.35rem 0.9rem;
+      background: var(--header-bg);
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 0.82rem;
+      font-weight: 600;
+      white-space: nowrap;
+      transition: opacity 0.2s;
+    }
+    .read-more:hover { opacity: 0.85; }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem 1rem 2.5rem;
+      font-size: 0.82rem;
+      color: var(--subtext);
+      border-top: 1px solid var(--border);
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <a href="index.html" class="back-link">← 一覧に戻る</a>
+  <h1>📰 今日のAIニュース</h1>
+  <p class="date-label">2026年5月30日（土）</p>
+</header>
+
+<main>
+
+  <!-- Card 1 -->
+  <article class="card">
+    <div class="card-header">
+      <span class="card-number">1</span>
+      <span class="tag tag-blue">実務活用</span>
+    </div>
+    <h2 class="card-title">Microsoft、企業向けAI統合パッケージ「Microsoft 365 E7 Frontier Suite」を正式提供開始</h2>
+    <p class="card-meta">
+      <span>Microsoft / Trustmarque</span>
+      <span>2026-05-01</span>
+    </p>
+    <p class="card-summary">
+      Microsoftが企業向けAI統合パッケージ「Microsoft 365 E7 Frontier Suite」を月額99ドル/ユーザーで正式提供開始。Microsoft 365 E5・Copilot・新製品「Agent 365」・Entra Suiteを一括バンドルし、個別購入より低コストで導入可能。AI エージェント管理基盤「Agent 365」（月額15ドルのスタンドアロンも選択可）により、企業がAIエージェントをガバナンス・セキュリティ管理しながら大規模展開できる環境が整った。
+    </p>
+    <div class="card-footer">
+      <p class="reason">選定理由: 企業のAI活用を加速させる重要な新パッケージ。コスト・セキュリティ面でビジネス実務に直結する。</p>
+      <a href="https://trustmarque.com/microsoft-365-e7-agent-365-whats-launching-1-may-and-what-it-means" target="_blank" rel="noopener" class="read-more">元記事を読む →</a>
+    </div>
+  </article>
+
+  <!-- Card 2 -->
+  <article class="card">
+    <div class="card-header">
+      <span class="card-number">2</span>
+      <span class="tag tag-purple">動画編集</span>
+    </div>
+    <h2 class="card-title">RunwayがAI動画編集モデル「Aleph 2.0」と新アプリ「Edit Studio」を発表―狙った部分だけを正確に編集</h2>
+    <p class="card-meta">
+      <span>Runway Blog</span>
+      <span>2026-05-21</span>
+    </p>
+    <p class="card-summary">
+      RunwayがAI動画編集モデル「Aleph 2.0」を搭載した新アプリ「Edit Studio」を公開。変更したい部分だけを正確に編集しつつ、他のフレームや動きはそのまま保持。1080p・最大30秒の動画に対応し、複数シーンをまたいだ一括編集も自動で行う。1フレームを編集するだけで全シーンに変更が伝播するため、衣装の色変更やスタイル変換を短時間で実現できる。有料プランで利用可能。
+    </p>
+    <div class="card-footer">
+      <p class="reason">選定理由: 映像クリエイターの編集ワークフローを根本から変える画期的なAI動画編集機能。</p>
+      <a href="https://runwayml.com/news/introducing-aleph-2-and-edit-studio" target="_blank" rel="noopener" class="read-more">元記事を読む →</a>
+    </div>
+  </article>
+
+  <!-- Card 3 -->
+  <article class="card">
+    <div class="card-header">
+      <span class="card-number">3</span>
+      <span class="tag tag-red">YouTube</span>
+    </div>
+    <h2 class="card-title">YouTube、Google I/O 2026でAI機能群を大量発表―会話型検索「Ask YouTube」・Gemini Omniリミックスなど</h2>
+    <p class="card-meta">
+      <span>YouTube Blog</span>
+      <span>2026-05-20</span>
+    </p>
+    <p class="card-summary">
+      Google I/O 2026にてYouTubeが多数のAI新機能を一挙発表。複雑な質問に自然言語で答える会話型検索「Ask YouTube」、Gemini OmniによるShorts自動リミックス（無料提供）、クリエイター向け「ライケネス検出」機能（自分の肖像をAI利用から保護・管理）、AI自動BGM差し替えなどを含む。クリエイターと視聴者両方の体験を大幅に刷新する機能群が順次グローバル展開予定。
+    </p>
+    <div class="card-footer">
+      <p class="reason">選定理由: YouTubeクリエイターの制作・収益化環境を直接変える重要なAIアップデート。</p>
+      <a href="https://blog.youtube/news-and-events/youtube-news-google-io-2026/" target="_blank" rel="noopener" class="read-more">元記事を読む →</a>
+    </div>
+  </article>
+
+  <!-- Card 4 -->
+  <article class="card">
+    <div class="card-header">
+      <span class="card-number">4</span>
+      <span class="tag tag-blue">実務活用</span>
+    </div>
+    <h2 class="card-title">Anthropic、テキストから資料を自動生成する「Claude Design」をリサーチプレビュー公開</h2>
+    <p class="card-meta">
+      <span>Anthropic</span>
+      <span>2026-04-17</span>
+    </p>
+    <p class="card-summary">
+      AnthropicがAI搭載のビジュアル作成ツール「Claude Design」をリサーチプレビューとして公開。テキストプロンプトを入力するだけで、プレゼン資料・ワイヤーフレーム・ピッチデッキ・マーケティング資料などを自動生成。Claude Opus 4.7で駆動され、会社のデザインシステムを読み込んでブランドに沿った資料作成も可能。PDF・PPTX・URLおよびCanvaへのエクスポートに対応。Pro・Max・Team・Enterpriseプランで利用可能。
+    </p>
+    <div class="card-footer">
+      <p class="reason">選定理由: デザインスキル不要で資料作成を自動化できる、ビジネスパーソン向け実用性の高いAIツール。</p>
+      <a href="https://www.anthropic.com/news/claude-design-anthropic-labs" target="_blank" rel="noopener" class="read-more">元記事を読む →</a>
+    </div>
+  </article>
+
+  <!-- Card 5 -->
+  <article class="card">
+    <div class="card-header">
+      <span class="card-number">5</span>
+      <span class="tag tag-orange">意外な活用</span>
+    </div>
+    <h2 class="card-title">「ブッダロイド」登場―仏教経典を学習したAIロボットが悩み相談に対応、後継者不足の寺院を救う</h2>
+    <p class="card-meta">
+      <span>ITmedia NEWS / 京都大学</span>
+      <span>2026-02-25</span>
+    </p>
+    <p class="card-summary">
+      京都大学・テラバース・XNOVAが共同開発した仏教AI搭載ヒト型ロボット「ブッダロイド」が公開。仏教経典を深く学習したAIが対面での口頭対話による悩み相談に対応し、合掌などの動作も可能。日本の寺院が直面する深刻な後継者不足の解決策として開発された。宗教・精神文化とAIを融合させた前例のない活用事例として国内外のメディアに大きく取り上げられた。
+    </p>
+    <div class="card-footer">
+      <p class="reason">選定理由: AIと宗教文化の融合という意表を突く活用事例。社会課題解決にAIが貢献する好例。</p>
+      <a href="https://www.itmedia.co.jp/news/articles/2602/25/news096.html" target="_blank" rel="noopener" class="read-more">元記事を読む →</a>
+    </div>
+  </article>
+
+</main>
+
+<footer>
+  AI News Daily · Generated by Claude · <a href="https://github.com/kakkey-genious" style="color:inherit;">kakkey-genious</a>
+</footer>
+
+</body>
+</html>
