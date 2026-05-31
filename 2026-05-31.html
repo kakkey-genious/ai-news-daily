@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AIニュース 2026-05-31 | AI News Daily</title>
+  <style>
+    :root {
+      --bg: #f4f6f9;
+      --card-bg: #ffffff;
+      --text: #1a1a2e;
+      --subtext: #6b7280;
+      --border: #e5e7eb;
+      --header-bg: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f172a;
+        --card-bg: #1e293b;
+        --text: #e2e8f0;
+        --subtext: #94a3b8;
+        --border: #334155;
+      }
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Hiragino Sans', 'Noto Sans JP', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    header {
+      background: var(--header-bg);
+      color: #ffffff;
+      padding: 2.5rem 1.5rem 2rem;
+      text-align: center;
+    }
+
+    header .back-link {
+      display: inline-block;
+      margin-bottom: 1.2rem;
+      color: #93c5fd;
+      text-decoration: none;
+      font-size: 0.9rem;
+      transition: color 0.2s;
+    }
+
+    header .back-link:hover { color: #bfdbfe; }
+
+    header h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.4rem;
+    }
+
+    header .date {
+      font-size: 1rem;
+      opacity: 0.75;
+      letter-spacing: 0.05em;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem 1.25rem;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1.5rem;
+      margin-bottom: 1.25rem;
+      transition: box-shadow 0.2s, transform 0.2s;
+    }
+
+    .card:hover {
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+      transform: translateY(-2px);
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .card:hover { box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4); }
+    }
+
+    .card-header {
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .card-number {
+      flex-shrink: 0;
+      width: 2rem;
+      height: 2rem;
+      background: var(--header-bg);
+      color: #ffffff;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 0.85rem;
+    }
+
+    .card-title-wrap { flex: 1; }
+
+    .card-title {
+      font-size: 1.08rem;
+      font-weight: 700;
+      line-height: 1.4;
+      margin-bottom: 0.3rem;
+      color: var(--text);
+    }
+
+    .card-meta {
+      font-size: 0.8rem;
+      color: var(--subtext);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      align-items: center;
+    }
+
+    .card-meta span::before { content: "· "; }
+    .card-meta span:first-child::before { content: ""; }
+
+    .tag {
+      display: inline-block;
+      padding: 0.2rem 0.65rem;
+      border-radius: 999px;
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      margin-bottom: 0.75rem;
+    }
+
+    .tag-blue   { background: #dbeafe; color: #1d4ed8; }
+    .tag-purple { background: #ede9fe; color: #6d28d9; }
+    .tag-orange { background: #fef3c7; color: #b45309; }
+    .tag-red    { background: #fee2e2; color: #b91c1c; }
+
+    @media (prefers-color-scheme: dark) {
+      .tag-blue   { background: #1e3a5f; color: #93c5fd; }
+      .tag-purple { background: #2e1065; color: #c4b5fd; }
+      .tag-orange { background: #451a03; color: #fcd34d; }
+      .tag-red    { background: #450a0a; color: #fca5a5; }
+    }
+
+    .card-summary {
+      font-size: 0.92rem;
+      color: var(--text);
+      margin-bottom: 0.85rem;
+      line-height: 1.65;
+    }
+
+    .card-reason {
+      font-size: 0.8rem;
+      color: var(--subtext);
+      margin-bottom: 0.85rem;
+      padding: 0.5rem 0.75rem;
+      border-left: 3px solid var(--border);
+      background: rgba(0,0,0,0.02);
+      border-radius: 0 6px 6px 0;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .card-reason { background: rgba(255,255,255,0.03); }
+    }
+
+    .card-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      color: #3b82f6;
+      text-decoration: none;
+      font-size: 0.83rem;
+      font-weight: 500;
+      border: 1px solid #bfdbfe;
+      padding: 0.35rem 0.8rem;
+      border-radius: 6px;
+      transition: background 0.2s, color 0.2s;
+    }
+
+    .card-link:hover {
+      background: #3b82f6;
+      color: #ffffff;
+      border-color: #3b82f6;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem 3rem;
+      font-size: 0.8rem;
+      color: var(--subtext);
+    }
+
+    footer a {
+      color: var(--subtext);
+      text-decoration: none;
+    }
+
+    footer a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+<header>
+  <a href="index.html" class="back-link">← 一覧に戻る</a>
+  <h1>📰 今日のAIニュース</h1>
+  <p class="date">2026年5月31日（日）</p>
+</header>
+
+<main>
+
+  <!-- Card 1 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-number">1</div>
+      <div class="card-title-wrap">
+        <h2 class="card-title">Googleが24時間365日稼働のAIエージェント「Gemini Spark」を発表 — Gmail・Docsを横断して自律的に業務タスクを処理</h2>
+        <div class="card-meta">
+          <span>TechCrunch</span>
+          <span>2026年5月19日</span>
+        </div>
+      </div>
+    </div>
+    <span class="tag tag-blue">実務活用</span>
+    <p class="card-summary">Googleが Google I/O 2026 で発表した「Gemini Spark」は、Gmail・Google Docs・Canva・Asana など多数のサービスと連携し、ユーザーが指示した業務タスクを寝ている間も自律的に処理する24時間AIエージェント。メールの整理・ステータスレポートの作成・緊急連絡の優先フィルタリングなどに対応。支払い関連の操作には必ずユーザー承認が必要な安全設計を採用しており、2026年がエージェント型AIの実運用元年となる象徴的なプロダクトとして注目を集めている。</p>
+    <p class="card-reason">💡 選定理由: 日常業務の自動化に直結する実用的AIエージェントとして、ビジネスパーソンが今すぐ注目すべき動向。</p>
+    <a href="https://techcrunch.com/2026/05/19/google-introduces-gemini-spark-a-24-7-agentic-assistant-with-gmail-integration/" class="card-link" target="_blank" rel="noopener">元記事を読む →</a>
+  </div>
+
+  <!-- Card 2 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-number">2</div>
+      <div class="card-title-wrap">
+        <h2 class="card-title">Kling 3.0 登場 — ネイティブ4K・60fps・音声合成・マルチショット生成でAI動画の新基準を確立</h2>
+        <div class="card-meta">
+          <span>No Film School</span>
+          <span>2026年2月</span>
+        </div>
+      </div>
+    </div>
+    <span class="tag tag-purple">動画編集</span>
+    <p class="card-summary">Kuaishou Technology が発表したKling 3.0は、AI動画生成の最新世代。ネイティブ4K解像度・60fpsに加え、口の動きと同期したキャラクター音声・効果音・環境音をプロンプト一つで自動生成するネイティブ音声合成を搭載。1プロンプトで最大6カットのマルチショット動画を作成でき、「AIディレクター」機能がカメラアングルや場面転換を自律的に判断。OpenAI が Sora を終了させた後の動画AI市場で、最有力ツールとして急浮上している。</p>
+    <p class="card-reason">💡 選定理由: 映像制作・動画編集ワークフローを根本から変える可能性を持つ最新AI動画ツールの到達点として。</p>
+    <a href="https://nofilmschool.com/kling-3-0-ai-video-model" class="card-link" target="_blank" rel="noopener">元記事を読む →</a>
+  </div>
+
+  <!-- Card 3 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-number">3</div>
+      <div class="card-title-wrap">
+        <h2 class="card-title">YouTubeが18歳以上の全認証クリエイターにAIディープフェイク顔認識ツールを開放 — 本人確認書類で登録・自動検出が可能に</h2>
+        <div class="card-meta">
+          <span>Tubefilter</span>
+          <span>2026年5月18日</span>
+        </div>
+      </div>
+    </div>
+    <span class="tag tag-red">YouTube</span>
+    <p class="card-summary">YouTubeは5月18日、AIによるディープフェイク肖像検出ツールをYPP会員限定から18歳以上の全認証クリエイターに拡大した。政府発行IDとセルフィー動画で登録すると、システムが新規アップロード動画を自動スキャンして無断使用を検出し、削除リクエストを促す。3月の政治家・ジャーナリスト向け、4月のハリウッド芸能人向けに続く段階的展開。音声クローンへの対応は現時点で未実装であり、今後の課題となっている。</p>
+    <p class="card-reason">💡 選定理由: 全クリエイターに関わる著作権・肖像権保護の重要アップデート。今すぐ登録を確認すべき内容。</p>
+    <a href="https://www.tubefilter.com/2026/05/18/youtube-generative-ai-deepfake-likeness-detection-rollout/" class="card-link" target="_blank" rel="noopener">元記事を読む →</a>
+  </div>
+
+  <!-- Card 4 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-number">4</div>
+      <div class="card-title-wrap">
+        <h2 class="card-title">MITのAIツールがミラノ五輪のフィギュアスケート中継を変える — 跳躍高度・回転速度をリアルタイム解析してNBCの解説に活用</h2>
+        <div class="card-meta">
+          <span>MIT News</span>
+          <span>2026年2月10日</span>
+        </div>
+      </div>
+    </div>
+    <span class="tag tag-orange">意外な活用</span>
+    <p class="card-summary">MIT卒業生 Jerry Lu 氏が開発した「OOFSkate」は、通常のカメラ映像からフィギュアスケーターのジャンプ高度・回転速度・着地品質をAIがリアルタイム解析するツール。2026年ミラノ冬季五輪では NBCスポーツと連携し、視聴者が難解な採点システムを直感的に理解できるよう活用。チームUSAのコーチングにも採用され、米国フィギュアスケート連盟の公式パートナーにも認定。スポーツ中継とAI分析を融合させた意外なユースケースが注目を集めている。</p>
+    <p class="card-reason">💡 選定理由: スポーツ×AIの意外な融合事例として、AIが専門分野の可視化を民主化している好例。</p>
+    <a href="https://news.mit.edu/2026/3-questions-using-ai-help-olympic-skaters-land-quint-0210" class="card-link" target="_blank" rel="noopener">元記事を読む →</a>
+  </div>
+
+  <!-- Card 5 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-number">5</div>
+      <div class="card-title-wrap">
+        <h2 class="card-title">Novo NordiskがOpenAIと戦略提携 — 肥満・糖尿病の新薬開発から製造・サプライチェーンまで全事業にAIを統合</h2>
+        <div class="card-meta">
+          <span>CNBC</span>
+          <span>2026年4月14日</span>
+        </div>
+      </div>
+    </div>
+    <span class="tag tag-blue">実務活用</span>
+    <p class="card-summary">世界最大規模の製薬会社Novo NordiskがOpenAIと戦略的パートナーシップを締結。新薬候補の探索・臨床試験・製造・サプライチェーン最適化・社員のAIリテラシー向上まで全事業にAIを組み込む計画で、2026年末までに全社展開を予定。肥満・糖尿病治療薬（Ozempic・Wegovy系統）の開発スピード向上を主眼とし、複雑なデータセット解析や有望な薬物候補の早期特定を目指す。厳格なデータガバナンスと人間の監督体制を維持した設計となっている。</p>
+    <p class="card-reason">💡 選定理由: ビッグファーマ×生成AIという産業への波及効果が非常に大きい実務活用事例として。</p>
+    <a href="https://www.cnbc.com/2026/04/14/novo-nordisk-openai-ai-drug-discovery-healthcare-nvo.html" class="card-link" target="_blank" rel="noopener">元記事を読む →</a>
+  </div>
+
+</main>
+
+<footer>
+  <p>AI News Daily &middot; Generated by Claude &middot; <a href="https://github.com/kakkey-genious/ai-news-daily" target="_blank" rel="noopener">kakkey-genious</a></p>
+</footer>
+
+</body>
+</html>

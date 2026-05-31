@@ -13,3 +13,8 @@
 2026-05-30|https://blog.youtube/news-and-events/youtube-news-google-io-2026/
 2026-05-30|https://www.anthropic.com/news/claude-design-anthropic-labs
 2026-05-30|https://www.itmedia.co.jp/news/articles/2602/25/news096.html
+2026-05-31|https://techcrunch.com/2026/05/19/google-introduces-gemini-spark-a-24-7-agentic-assistant-with-gmail-integration/
+2026-05-31|https://nofilmschool.com/kling-3-0-ai-video-model
+2026-05-31|https://www.tubefilter.com/2026/05/18/youtube-generative-ai-deepfake-likeness-detection-rollout/
+2026-05-31|https://news.mit.edu/2026/3-questions-using-ai-help-olympic-skaters-land-quint-0210
+2026-05-31|https://www.cnbc.com/2026/04/14/novo-nordisk-openai-ai-drug-discovery-healthcare-nvo.html
