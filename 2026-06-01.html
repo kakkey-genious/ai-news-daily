@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AIニュース Daily｜2026年6月1日</title>
+  <style>
+    :root {
+      --bg: #f4f6f9;
+      --card-bg: #ffffff;
+      --text: #1a1a2e;
+      --subtext: #6b7280;
+      --border: #e5e7eb;
+      --header-bg: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f172a;
+        --card-bg: #1e293b;
+        --text: #e2e8f0;
+        --subtext: #94a3b8;
+        --border: #334155;
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Hiragino Sans', 'Noto Sans JP', sans-serif;
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    header {
+      background: var(--header-bg);
+      color: #ffffff;
+      padding: 2.5rem 1.5rem 2rem;
+      text-align: center;
+    }
+
+    header .back-link {
+      display: inline-block;
+      color: rgba(255, 255, 255, 0.7);
+      text-decoration: none;
+      font-size: 0.875rem;
+      margin-bottom: 1rem;
+      transition: color 0.2s;
+    }
+
+    header .back-link:hover {
+      color: #ffffff;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.5rem;
+    }
+
+    header .date {
+      font-size: 1rem;
+      color: rgba(255, 255, 255, 0.75);
+      font-weight: 400;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem 1.25rem;
+    }
+
+    .news-count {
+      font-size: 0.875rem;
+      color: var(--subtext);
+      margin-bottom: 1.5rem;
+      text-align: center;
+    }
+
+    .card {
+      background-color: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin-bottom: 1.25rem;
+      transition: box-shadow 0.2s, transform 0.2s;
+    }
+
+    .card:hover {
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+      transform: translateY(-2px);
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .card:hover {
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+      }
+    }
+
+    .card-header {
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .card-number {
+      flex-shrink: 0;
+      width: 2rem;
+      height: 2rem;
+      background: var(--header-bg);
+      color: #ffffff;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.875rem;
+      font-weight: 700;
+    }
+
+    .card-title-block {
+      flex: 1;
+    }
+
+    .card-title {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--text);
+      line-height: 1.4;
+      margin-bottom: 0.25rem;
+    }
+
+    .card-meta {
+      font-size: 0.8rem;
+      color: var(--subtext);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      align-items: center;
+    }
+
+    .card-meta span {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.25rem;
+    }
+
+    .card-summary {
+      font-size: 0.9rem;
+      color: var(--text);
+      line-height: 1.65;
+      margin: 0.75rem 0;
+      padding: 0.75rem;
+      background-color: var(--bg);
+      border-radius: 8px;
+      border-left: 3px solid var(--border);
+    }
+
+    .card-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin-top: 0.75rem;
+    }
+
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.25rem;
+      padding: 0.25rem 0.75rem;
+      border-radius: 999px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: #ffffff;
+    }
+
+    .tag-business  { background-color: #3b82f6; }
+    .tag-video     { background-color: #8b5cf6; }
+    .tag-unique    { background-color: #f59e0b; }
+    .tag-youtube   { background-color: #ef4444; }
+
+    .card-link {
+      font-size: 0.8rem;
+      color: #3b82f6;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.25rem;
+      transition: opacity 0.2s;
+    }
+
+    .card-link:hover {
+      opacity: 0.75;
+      text-decoration: underline;
+    }
+
+    .reason {
+      font-size: 0.78rem;
+      color: var(--subtext);
+      margin-top: 0.5rem;
+      font-style: italic;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.8rem;
+      color: var(--subtext);
+      border-top: 1px solid var(--border);
+      margin-top: 1rem;
+    }
+
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.5rem; }
+      .card { padding: 1.2rem; }
+      .card-footer { flex-direction: column; align-items: flex-start; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <a class="back-link" href="index.html">← 一覧に戻る</a>
+  <h1>📰 今日のAIニュース</h1>
+  <p class="date">2026年6月1日（月）</p>
+</header>
+
+<main>
+  <p class="news-count">本日のピックアップ：5件</p>
+
+  <!-- Card 1 -->
+  <article class="card">
+    <div class="card-header">
+      <div class="card-number">1</div>
+      <div class="card-title-block">
+        <h2 class="card-title">NVIDIAがComputex 2026で「Vera Rubin NVL72」と10年ぶりの新CPU「N1X」を発表——AI推論コスト1/10の衝撃</h2>
+        <div class="card-meta">
+          <span>📰 ServeTheHome</span>
+          <span>📅 2026年6月1日</span>
+        </div>
+      </div>
+    </div>
+    <p class="card-summary">
+      NVIDIAのジェンスン・ファンCEOがComputex 2026（台北）の基調講演でVera Rubin NVL72と消費者向け初のArmベースCPU「N1X」を発表。Vera Rubin NVL72は36基のVera CPUと72基のRubin GPUを搭載し、前世代のBlackwellプラットフォーム比で推論性能10倍・コスト1/10を実現。N1XはRTX 5070相当の内蔵GPUとArmベース20コアCPUを統合したノートPC向けSoCで、Dell・Lenovoからの搭載機が近く登場予定。
+    </p>
+    <div class="card-footer">
+      <span class="tag tag-business">💼 実務活用</span>
+      <a class="card-link" href="https://www.servethehome.com/nvidia-computex-2026-keynote-live-coverage/" target="_blank" rel="noopener">元記事を読む →</a>
+    </div>
+    <p class="reason">💡 選定理由：AI推論インフラのコスト革命はあらゆる企業のAI活用戦略に直結。N1Xは業務PCでのローカルAI実行を現実化する。</p>
+  </article>
+
+  <!-- Card 2 -->
+  <article class="card">
+    <div class="card-header">
+      <div class="card-number">2</div>
+      <div class="card-title-block">
+        <h2 class="card-title">WWDC 2026直前：iOS 27の新SiriはGoogle Gemini搭載——Apple史上最大のAIリニューアルへ</h2>
+        <div class="card-meta">
+          <span>📰 Tom's Guide</span>
+          <span>📅 2026年5月31日</span>
+        </div>
+      </div>
+    </div>
+    <p class="card-summary">
+      Apple WWDC 2026（6月8日開幕）に向け、iOS 27の新型SiriがGoogleのGemini技術を基盤とすることが明らかになった。Apple独自のPrivate Cloud Computeで処理し、プライバシーを担保しながら高度な会話能力を実現。スタンドアロンSiriアプリ、Dynamic Island統合、連続対話、マルチステップ推論など2011年のSiri初代以来最大規模の刷新。iOS 27は9月以降に一般公開予定。
+    </p>
+    <div class="card-footer">
+      <span class="tag tag-business">💼 実務活用</span>
+      <a class="card-link" href="https://www.tomsguide.com/phones/iphones/wwdc-2026" target="_blank" rel="noopener">元記事を読む →</a>
+    </div>
+    <p class="reason">💡 選定理由：iPhoneユーザー数十億人に影響するSiriの刷新は、モバイルビジネス活用の常識を塗り替える転換点となる。</p>
+  </article>
+
+  <!-- Card 3 -->
+  <article class="card">
+    <div class="card-header">
+      <div class="card-number">3</div>
+      <div class="card-title-block">
+        <h2 class="card-title">Adobe「MotionStream」公開——AI動画生成中にカメラや被写体をリアルタイムで操作可能に</h2>
+        <div class="card-meta">
+          <span>📰 No Film School</span>
+          <span>📅 2026年5月31日</span>
+        </div>
+      </div>
+    </div>
+    <p class="card-summary">
+      AdobeリサーチがICLR 2026で発表した「MotionStream」が映像制作業界で大きな注目を集めている。テキストプロンプトでAI動画を生成しながら、被写体の動きやカメラアングルをドラッグ&ドロップでリアルタイムに変更できる革新的な技術。動画をセグメント単位で逐次生成することでユーザーが途中で操作を加えられるよう設計されており、AI生成動画の最大の弱点だった「コントロールの欠如」を解消する可能性がある。
+    </p>
+    <div class="card-footer">
+      <span class="tag tag-video">🎬 動画編集</span>
+      <a class="card-link" href="https://nofilmschool.com/adobe-motionstream-ai" target="_blank" rel="noopener">元記事を読む →</a>
+    </div>
+    <p class="reason">💡 選定理由：AI動画生成の「制御不能」という根本的な課題を解決し、映像制作プロの実務ワークフローに統合できる最初の技術として画期的。</p>
+  </article>
+
+  <!-- Card 4 -->
+  <article class="card">
+    <div class="card-header">
+      <div class="card-number">4</div>
+      <div class="card-title-block">
+        <h2 class="card-title">Eddie AI「Night Shift」：撮影後に寝るだけで翌朝ラフカット完成——YouTubeクリエイターの制作ルーティンを変える</h2>
+        <div class="card-meta">
+          <span>📰 No Film School</span>
+          <span>📅 2026年5月（NAB 2026）</span>
+        </div>
+      </div>
+    </div>
+    <p class="card-summary">
+      NAB 2026で発表されたEddie AI v3の「Night Shift」機能が動画クリエイターの間で急速に広まっている。Frame.io、Google Drive、DropboxにアップロードしてAIにテキストで依頼するだけで、翌朝8時までにA-roll/B-roll仕分け・マルチカム同期・最大40分のラフカット編集が完了。撮影翌日の編集作業を大幅に削減し、一人YouTuberや小規模制作チームの生産性を根本から改善すると注目されている。
+    </p>
+    <div class="card-footer">
+      <span class="tag tag-youtube">▶ YouTube</span>
+      <a class="card-link" href="https://nofilmschool.com/eddie-ai-night-shift" target="_blank" rel="noopener">元記事を読む →</a>
+    </div>
+    <p class="reason">💡 選定理由：撮影後のワークフロー全体をAIに委ねる実用的なソリューションで、コンテンツクリエイターが今すぐ活用できる即効性の高いツール。</p>
+  </article>
+
+  <!-- Card 5 -->
+  <article class="card">
+    <div class="card-header">
+      <div class="card-number">5</div>
+      <div class="card-title-block">
+        <h2 class="card-title">ニューヨーク・タイムズ技術職組合がAI監視ツールに反発——「AIで従業員を監視」は不当労働行為？</h2>
+        <div class="card-meta">
+          <span>📰 Let's Data Science / The Verge</span>
+          <span>📅 2026年5月27日</span>
+        </div>
+      </div>
+    </div>
+    <p class="card-summary">
+      ニューヨーク・タイムズのテックギルド（約700名）が、会社がAIツール「DX」（エンジニア生産性トラッカー）と「Glean」（社内知識検索）を使って組合員のパフォーマンスを無断で監視していたとして苦情申請と不当労働行為の申告を行った。AIによる従業員監視が日常化しつつある中、労働協約との衝突が初めて法的問題に発展した事例として、今後の職場AI導入のあり方に大きな影響を与えそうだ。
+    </p>
+    <div class="card-footer">
+      <span class="tag tag-unique">✨ 意外な活用</span>
+      <a class="card-link" href="https://letsdatascience.com/news/nyt-union-challenges-ai-performance-monitoring-practices-38b63a52" target="_blank" rel="noopener">元記事を読む →</a>
+    </div>
+    <p class="reason">💡 選定理由：AI活用の「使われる側」からの反発という新たな視点。企業のAI導入における労働法・組合協約との関係を考える重要な事例。</p>
+  </article>
+
+</main>
+
+<footer>
+  AI News Daily &middot; Generated by Claude &middot; kakkey-genious
+</footer>
+
+</body>
+</html>
