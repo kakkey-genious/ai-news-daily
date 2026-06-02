@@ -23,3 +23,8 @@
 2026-06-01|https://nofilmschool.com/adobe-motionstream-ai
 2026-06-01|https://nofilmschool.com/eddie-ai-night-shift
 2026-06-01|https://letsdatascience.com/news/nyt-union-challenges-ai-performance-monitoring-practices-38b63a52
+2026-06-02|https://dataconomy.com/2026/06/01/apple-siri-ios-27-wwdc-2026/
+2026-06-02|https://nofilmschool.com/imagen-video-release
+2026-06-02|https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense/
+2026-06-02|https://www.searchenginejournal.com/youtube-ceo-announces-ai-creation-tools-in-app-shopping-for-2026/565588/
+2026-06-02|https://www.salesforceben.com/salesforce-announces-agentforce-coworker-ai-in-every-search-bar/
