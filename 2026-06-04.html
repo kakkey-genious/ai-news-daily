@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AIニュース 2026-06-04 | AI News Daily</title>
+  <style>
+    :root {
+      --bg: #f4f6f9;
+      --card-bg: #ffffff;
+      --text: #1a1a2e;
+      --subtext: #6b7280;
+      --border: #e5e7eb;
+      --header-bg: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f172a;
+        --card-bg: #1e293b;
+        --text: #e2e8f0;
+        --subtext: #94a3b8;
+        --border: #334155;
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--header-bg);
+      color: #ffffff;
+      padding: 48px 24px 40px;
+      text-align: center;
+    }
+
+    header .back-link {
+      display: inline-block;
+      color: rgba(255,255,255,0.7);
+      text-decoration: none;
+      font-size: 0.875rem;
+      margin-bottom: 20px;
+      transition: color 0.2s;
+    }
+
+    header .back-link:hover {
+      color: #ffffff;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 8px;
+    }
+
+    header .date {
+      font-size: 1rem;
+      color: rgba(255,255,255,0.7);
+      letter-spacing: 0.05em;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 24px;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 28px;
+      margin-bottom: 24px;
+      transition: box-shadow 0.2s;
+    }
+
+    .card:hover {
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    }
+
+    .card-header {
+      display: flex;
+      align-items: flex-start;
+      gap: 16px;
+      margin-bottom: 16px;
+    }
+
+    .card-number {
+      font-size: 1.5rem;
+      font-weight: 800;
+      color: var(--subtext);
+      min-width: 36px;
+      line-height: 1;
+      padding-top: 4px;
+    }
+
+    .card-title-block {
+      flex: 1;
+    }
+
+    .card-title {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--text);
+      line-height: 1.4;
+      margin-bottom: 6px;
+    }
+
+    .card-meta {
+      font-size: 0.8rem;
+      color: var(--subtext);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .card-meta span::before {
+      content: '·';
+      margin-right: 8px;
+    }
+    .card-meta span:first-child::before {
+      content: '';
+      margin-right: 0;
+    }
+
+    .card-summary {
+      font-size: 0.95rem;
+      color: var(--text);
+      line-height: 1.7;
+      margin-bottom: 16px;
+    }
+
+    .card-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .tag {
+      display: inline-block;
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: #ffffff;
+    }
+
+    .tag-blue   { background: #3b82f6; }
+    .tag-purple { background: #8b5cf6; }
+    .tag-orange { background: #f59e0b; }
+    .tag-red    { background: #ef4444; }
+
+    .card-link {
+      font-size: 0.85rem;
+      color: #3b82f6;
+      text-decoration: none;
+      font-weight: 500;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.2s;
+    }
+
+    .card-link:hover {
+      border-bottom-color: #3b82f6;
+    }
+
+    .card-reason {
+      margin-top: 12px;
+      padding: 10px 14px;
+      background: rgba(59, 130, 246, 0.06);
+      border-left: 3px solid #3b82f6;
+      border-radius: 0 6px 6px 0;
+      font-size: 0.82rem;
+      color: var(--subtext);
+      line-height: 1.6;
+    }
+
+    footer {
+      text-align: center;
+      padding: 32px 24px;
+      color: var(--subtext);
+      font-size: 0.85rem;
+      border-top: 1px solid var(--border);
+      margin-top: 16px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.5rem; }
+      .card { padding: 20px; }
+      .card-number { font-size: 1.25rem; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <a href="index.html" class="back-link">← 一覧に戻る</a>
+  <h1>📰 今日のAIニュース</h1>
+  <div class="date">2026年6月4日（木）</div>
+</header>
+
+<main>
+
+  <!-- Card 1 -->
+  <article class="card">
+    <div class="card-header">
+      <div class="card-number">01</div>
+      <div class="card-title-block">
+        <div class="card-title">Microsoft、OpenAI依存脱却へ — 独自AI「MAI-Thinking-1」「MAI-Code-1-Flash」をBuild 2026で発表</div>
+        <div class="card-meta">
+          <span>CNBC</span>
+          <span>2026年6月2日</span>
+        </div>
+      </div>
+    </div>
+    <p class="card-summary">MicrosoftがBuild 2026カンファレンスで、自社開発の基盤AIモデル群を初公開。MAI-Thinking-1は35Bパラメータを持つ推論モデルで、複雑な多段階タスクや長文コンテキスト処理を得意とし、独立評価でClaude Sonnet 4.6をも上回るとされる。MAI-Code-1-FlashはGitHub Copilotに既に統合された5Bパラメータのコーディングモデルで、SWE-Bench Proで51.2%を記録しHaiku 4.5を16ポイント凌ぐ性能を示した。OpenAI・Anthropic・Googleとの競争で自社モデルを持つことが戦略的な独自性につながるとMicrosoftは訴える。</p>
+    <div class="card-footer">
+      <span class="tag tag-blue">実務活用</span>
+      <a href="https://www.cnbc.com/2026/06/02/microsoft-unveils-new-ai-models-lessen-reliance-on-openai-lower-costs.html" class="card-link" target="_blank" rel="noopener">元記事を読む →</a>
+    </div>
+    <div class="card-reason">選定理由: OpenAI依存からの脱却という業界の大きな転換点を示すニュース。企業のAI調達戦略や開発者ツール選定に直結する内容で、実務担当者が把握すべき情報。</div>
+  </article>
+
+  <!-- Card 2 -->
+  <article class="card">
+    <div class="card-header">
+      <div class="card-number">02</div>
+      <div class="card-title-block">
+        <div class="card-title">Anthropicがエンタープライズ展開を加速 — Claude Partner Networkに3段階「サービストラック」を新設</div>
+        <div class="card-meta">
+          <span>Anthropic</span>
+          <span>2026年6月3日</span>
+        </div>
+      </div>
+    </div>
+    <p class="card-summary">AnthropicがClaude Partner Networkに「サービストラック」と「Partner Hub」を追加。サービストラックはSelect・Preferred・Global Premierの3段階で構成され、認定者数・本番稼働中の顧客数・公開事例数などの客観的基準で評価される。3月の開始からわずか3ヶ月で40,000社以上が参加申請し、10,000名超がClaude認定を取得。Partner Hubでは顧客がニーズに合ったパートナー企業を簡単に探せる仕組みが整備され、企業のClaudeエコシステムが急速に拡大している。</p>
+    <div class="card-footer">
+      <span class="tag tag-blue">実務活用</span>
+      <a href="https://www.anthropic.com/news/services-track-partner-hub" class="card-link" target="_blank" rel="noopener">元記事を読む →</a>
+    </div>
+    <div class="card-reason">選定理由: 企業でのClaude導入・外部委託を検討している実務担当者にとって、パートナー選びの指針となる重要なエコシステム情報。</div>
+  </article>
+
+  <!-- Card 3 -->
+  <article class="card">
+    <div class="card-header">
+      <div class="card-number">03</div>
+      <div class="card-title-block">
+        <div class="card-title">ByteDanceの最先端動画モデル「Seedance 2.0」がRunwayで利用可能に — マルチショット生成＋ネイティブ音声を一体化</div>
+        <div class="card-meta">
+          <span>No Film School</span>
+          <span>2026年6月</span>
+        </div>
+      </div>
+    </div>
+    <p class="card-summary">ByteDanceが開発したSeedance 2.0がRunwayのプラットフォームに統合され、クリエイターが手軽に利用できるようになった。Seedance 2.0は、マルチモーダル入力・マルチショット生成・ネイティブオーディオ生成を1つのパスで実現した初の消費者向けAI動画モデル。複数のシーンにわたってキャラクターの一貫性を保ちながら、音声付きの動画を一度に生成できる。AI動画ランキングでも上位に位置し、RunwayのUIを通じて既存ユーザーがシームレスに利用開始できる点も注目されている。</p>
+    <div class="card-footer">
+      <span class="tag tag-purple">動画編集</span>
+      <a href="https://nofilmschool.com/runway-seedance-2-0" class="card-link" target="_blank" rel="noopener">元記事を読む →</a>
+    </div>
+    <div class="card-reason">選定理由: 映像制作者が既に使っているRunwayプラットフォームで業界最高水準のモデルが使えるようになった実践的なアップデート。即日ワークフローに取り込める内容。</div>
+  </article>
+
+  <!-- Card 4 -->
+  <article class="card">
+    <div class="card-header">
+      <div class="card-number">04</div>
+      <div class="card-title-block">
+        <div class="card-title">YouTube ShortsにVeo 3 Fast統合 — スマートフォンから音声付きAI動画を無料生成、クリエイター利用率300%増</div>
+        <div class="card-meta">
+          <span>Digital Applied</span>
+          <span>2026年3月〜</span>
+        </div>
+      </div>
+    </div>
+    <p class="card-summary">YouTubeがGoogle DeepMindのVeo 3 FastをYouTube Shortsに統合し、YouTubeパートナープログラム（米国）のメンバーがスマートフォンから音声付きAI動画を無料生成できるようになった。480p・低レイテンシで15〜60秒の動画を素早く制作でき、AIモーションエフェクトやBrand Linksとの組み合わせでショート動画の収益化も同時に進化。生成AIツールの採用率はクリエイター間で前年比300%増と急増しており、コンテンツ制作の障壁が劇的に下がっている。</p>
+    <div class="card-footer">
+      <span class="tag tag-red">YouTube</span>
+      <a href="https://www.digitalapplied.com/blog/youtube-shorts-ai-creation-veo-3-fast-motion-brand-links" class="card-link" target="_blank" rel="noopener">元記事を読む →</a>
+    </div>
+    <div class="card-reason">選定理由: YouTubeクリエイターのワークフローを根本から変える可能性のあるアップデート。スマートフォン1台で音付きショート動画を量産できる時代の到来を示す内容。</div>
+  </article>
+
+  <!-- Card 5 -->
+  <article class="card">
+    <div class="card-header">
+      <div class="card-number">05</div>
+      <div class="card-title-block">
+        <div class="card-title">AnthropicがProject Glasswingを約150組織に拡大 — AIが重要ソフトウェアの脆弱性を自動発見</div>
+        <div class="card-meta">
+          <span>Anthropic</span>
+          <span>2026年6月2日</span>
+        </div>
+      </div>
+    </div>
+    <p class="card-summary">AnthropicがProject Glasswingを150の新規組織に拡大すると発表。同プロジェクトはClaudeを活用して世界の重要なソフトウェアインフラのセキュリティ脆弱性を自動的に発見・修正するための協働イニシアチブ。生成AIがコーディング支援にとどまらず、実際の本番ソフトウェアを守るセキュリティエージェントとして機能し始めたことを示す転換点。Anthropicはこの取り組みを通じ、AIが社会インフラを能動的に保護する役割を担う将来像を示している。</p>
+    <div class="card-footer">
+      <span class="tag tag-orange">意外な活用</span>
+      <a href="https://www.anthropic.com/news/expanding-project-glasswing" class="card-link" target="_blank" rel="noopener">元記事を読む →</a>
+    </div>
+    <div class="card-reason">選定理由: AIが「コード生成ツール」を超え、社会インフラを守るセキュリティエージェントとして機能し始めたという、AIの役割拡大を示す意外性のある事例。</div>
+  </article>
+
+</main>
+
+<footer>
+  AI News Daily · Generated by Claude · kakkey-genious
+</footer>
+
+</body>
+</html>
