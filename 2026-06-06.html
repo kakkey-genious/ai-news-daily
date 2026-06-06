@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>今日のAIニュース – 2026年6月6日</title>
+  <style>
+    :root {
+      --bg: #f4f6f9;
+      --card-bg: #ffffff;
+      --text: #1a1a2e;
+      --subtext: #6b7280;
+      --border: #e5e7eb;
+      --header-bg: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f172a;
+        --card-bg: #1e293b;
+        --text: #e2e8f0;
+        --subtext: #94a3b8;
+        --border: #334155;
+      }
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--header-bg);
+      color: #fff;
+      padding: 2.5rem 1.5rem 2rem;
+      text-align: center;
+    }
+
+    header .back-link {
+      display: inline-block;
+      color: rgba(255,255,255,0.75);
+      text-decoration: none;
+      font-size: 0.875rem;
+      margin-bottom: 1rem;
+      transition: color 0.2s;
+    }
+    header .back-link:hover { color: #fff; }
+
+    header h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+
+    header .date-label {
+      margin-top: 0.5rem;
+      font-size: 1rem;
+      color: rgba(255,255,255,0.8);
+    }
+
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin-bottom: 1.25rem;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+    }
+
+    .card-header {
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .card-number {
+      flex-shrink: 0;
+      width: 2rem;
+      height: 2rem;
+      background: var(--header-bg);
+      color: #fff;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 0.9rem;
+    }
+
+    .card-title {
+      font-size: 1.1rem;
+      font-weight: 700;
+      line-height: 1.4;
+    }
+
+    .card-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      align-items: center;
+      margin-bottom: 0.75rem;
+    }
+
+    .source-label {
+      font-size: 0.8rem;
+      color: var(--subtext);
+    }
+
+    .pub-date {
+      font-size: 0.8rem;
+      color: var(--subtext);
+    }
+
+    .tag {
+      display: inline-block;
+      padding: 0.2rem 0.65rem;
+      border-radius: 99px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: #fff;
+    }
+
+    .tag-blue   { background: #3b82f6; }
+    .tag-purple { background: #8b5cf6; }
+    .tag-orange { background: #f59e0b; }
+    .tag-red    { background: #ef4444; }
+
+    .card-summary {
+      font-size: 0.9rem;
+      color: var(--text);
+      margin-bottom: 0.75rem;
+      line-height: 1.65;
+    }
+
+    .card-reason {
+      font-size: 0.8rem;
+      color: var(--subtext);
+      font-style: italic;
+      margin-bottom: 0.75rem;
+    }
+
+    .card-link a {
+      display: inline-block;
+      font-size: 0.85rem;
+      color: #3b82f6;
+      text-decoration: none;
+      border: 1px solid #3b82f6;
+      padding: 0.3rem 0.8rem;
+      border-radius: 6px;
+      transition: background 0.2s, color 0.2s;
+    }
+    .card-link a:hover {
+      background: #3b82f6;
+      color: #fff;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      color: var(--subtext);
+      font-size: 0.8rem;
+      border-top: 1px solid var(--border);
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <a class="back-link" href="index.html">← 一覧に戻る</a>
+  <h1>📰 今日のAIニュース</h1>
+  <p class="date-label">2026年6月6日（土）</p>
+</header>
+
+<main>
+
+  <!-- Card 1 -->
+  <article class="card">
+    <div class="card-header">
+      <div class="card-number">1</div>
+      <div class="card-title">OpenAI、ChatGPTに「Dreaming V3」メモリ搭載──記憶が自動更新されパーソナライズが大幅強化</div>
+    </div>
+    <div class="card-meta">
+      <span class="source-label">TechTimes</span>
+      <span class="pub-date">2026-06-05</span>
+      <span class="tag tag-blue">実務活用</span>
+    </div>
+    <p class="card-summary">OpenAIがChatGPTのメモリシステムを全面刷新し、「Dreaming V3」アーキテクチャを導入。過去の記憶が自動更新され、時間経過とともに古い情報（例：「7月にシンガポールへ行く予定」→「7月にシンガポールへ行った」）も自然に修正される。記憶容量は2倍に拡張され、設定ページで学習内容の確認・編集も可能。米国のPlus・Proユーザーから段階的に展開中。</p>
+    <p class="card-reason">選定理由: ChatGPTをビジネスや日常で使うユーザー全員に直接影響する重要アップデート。パーソナライズ精度の向上は実務効率を大きく左右する。</p>
+    <div class="card-link"><a href="https://www.techtimes.com/articles/317840/20260605/chatgpt-memory-dreaming-update-openai-rewrites-personalization-engine-limits-audit-trail.htm" target="_blank" rel="noopener">元記事を読む →</a></div>
+  </article>
+
+  <!-- Card 2 -->
+  <article class="card">
+    <div class="card-header">
+      <div class="card-number">2</div>
+      <div class="card-title">Google Vids大幅強化──AIアバターをテキスト指示で自由操作、Veo 3.1は誰でも月10回無料に</div>
+    </div>
+    <div class="card-meta">
+      <span class="source-label">TechRepublic</span>
+      <span class="pub-date">2026-06-06</span>
+      <span class="tag tag-purple">動画編集</span>
+    </div>
+    <p class="card-summary">Google Vidsがシリーズ最大のアップデートを実施。テキストプロンプトだけでAIアバターをシーンに配置・操作し、服装や小道具のカスタマイズも可能に。Veo 3.1による高品質動画生成が全Googleアカウントユーザーに月10回無料で開放され、Lyria 3を使ったAI楽曲生成やYouTubeへの直接エクスポート機能も追加。Google AI Pro/Ultraユーザーには無制限のアバター操作機能が提供される。</p>
+    <p class="card-reason">選定理由: 有料プランなしでもVeo 3.1を使えるようになった点が革新的。動画制作の敷居が大幅に下がり、個人クリエイターから企業まで広く活用できる。</p>
+    <div class="card-link"><a href="https://www.techrepublic.com/article/news-google-vids-ai-avatars-update/" target="_blank" rel="noopener">元記事を読む →</a></div>
+  </article>
+
+  <!-- Card 3 -->
+  <article class="card">
+    <div class="card-header">
+      <div class="card-number">3</div>
+      <div class="card-title">YouTube「Omni Remix」登場──AIで他のShortsに自分を合成できる新機能、クリエイターが主役に</div>
+    </div>
+    <div class="card-meta">
+      <span class="source-label">Hollywood Reporter</span>
+      <span class="pub-date">2026-06-05</span>
+      <span class="tag tag-red">YouTube</span>
+    </div>
+    <p class="card-summary">YouTubeがAIを活用した新機能「Omni Remix」をShortsに展開。数秒の自撮り動画から自分の外見を学習し、別のクリエイターの動画に自然な形で自分を合成できる。プロンプト入力で背景を90年代風に変えたり、お気に入りクリエイターと同じシーンに登場したりすることが可能。リミックスされた動画にはデジタル透かしが埋め込まれ、元クリエイターへの帰属も保護される。YouTube Shorts Remixおよびアプリ「YouTube Create」で無料提供。</p>
+    <p class="card-reason">選定理由: クリエイターが新たな形でコラボできる革新的な機能。著作権保護の仕組みも整備されており、今後のコンテンツ制作スタイルを変える可能性がある。</p>
+    <div class="card-link"><a href="https://www.hollywoodreporter.com/business/digital/youtube-worldwide-number-users-use-ai-insert-into-videos-1236601256/" target="_blank" rel="noopener">元記事を読む →</a></div>
+  </article>
+
+  <!-- Card 4 -->
+  <article class="card">
+    <div class="card-header">
+      <div class="card-number">4</div>
+      <div class="card-title">NVIDIA、オープンウェイト550Bモデル「Nemotron 3 Ultra」公開──商用利用可能な米国最高水準AIが登場</div>
+    </div>
+    <div class="card-meta">
+      <span class="source-label">MarkTechPost</span>
+      <span class="pub-date">2026-06-04</span>
+      <span class="tag tag-blue">実務活用</span>
+    </div>
+    <p class="card-summary">NVIDIAが550Bパラメータ（55Bアクティブ）のMixture-of-Experts（MoE）モデル「Nemotron 3 Ultra」をHuggingFace・OpenRouter・NVIDIA NIMで公開。商用利用可能なオープンウェイトとして米国最高水準の性能を誇り、毎秒300トークン超の処理速度と100万トークンのコンテキストウィンドウを実現。長時間エージェントタスクに特化した設計で、20兆トークンで事前学習済み。BF16・NVFP4など4つのチェックポイントが提供される。</p>
+    <p class="card-reason">選定理由: GPUコストなしで使えるオープンウェイトフロンティアモデルの公開は、企業や研究者にとって大きなインパクト。エンタープライズAIエージェント構築に直結する。</p>
+    <div class="card-link"><a href="https://www.marktechpost.com/2026/06/04/nvidia-ai-releases-nemotron-3-ultra-an-open-550b-mixture-of-experts-hybrid-mamba-transformer-for-long-running-agents/" target="_blank" rel="noopener">元記事を読む →</a></div>
+  </article>
+
+  <!-- Card 5 -->
+  <article class="card">
+    <div class="card-header">
+      <div class="card-number">5</div>
+      <div class="card-title">米政府がChatGPTで全50州の医療不正支出をAI監査──年間最大20兆円規模の不正を自動検出</div>
+    </div>
+    <div class="card-meta">
+      <span class="source-label">ABC News</span>
+      <span class="pub-date">2026-06-05</span>
+      <span class="tag tag-orange">意外な活用</span>
+    </div>
+    <p class="card-summary">米保健福祉省（HHS）がChatGPT等のAIを活用した「AERO（Audit Enforcement and Risk Oversight）」プログラムで、全50州の公的医療支援プログラムに関する監査報告書（過去5年分）を自動分析。年間1,000〜2,000億ドル規模の不正・無駄を特定することが目標。既に公開されている報告書PDFをLLMで解析するため、患者情報の問題を回避しつつ運用。改善しない州・団体には資金停止措置も。</p>
+    <p class="card-reason">選定理由: 生成AIが政府の不正検出という極めて実用的な行政用途に活用されている点が意外性抜群。AIの社会実装の新たな形を示す事例。</p>
+    <div class="card-link"><a href="https://abcnews.com/US/wireStory/trump-administration-expands-ai-hunt-healthcare-fraud-133198614" target="_blank" rel="noopener">元記事を読む →</a></div>
+  </article>
+
+</main>
+
+<footer>
+  AI News Daily · Generated by Claude · kakkey-genious
+</footer>
+
+</body>
+</html>
