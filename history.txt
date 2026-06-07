@@ -1,8 +1,3 @@
-2026-05-30|https://trustmarque.com/microsoft-365-e7-agent-365-whats-launching-1-may-and-what-it-means
-2026-05-30|https://runwayml.com/news/introducing-aleph-2-and-edit-studio
-2026-05-30|https://blog.youtube/news-and-events/youtube-news-google-io-2026/
-2026-05-30|https://www.anthropic.com/news/claude-design-anthropic-labs
-2026-05-30|https://www.itmedia.co.jp/news/articles/2602/25/news096.html
 2026-05-31|https://techcrunch.com/2026/05/19/google-introduces-gemini-spark-a-24-7-agentic-assistant-with-gmail-integration/
 2026-05-31|https://nofilmschool.com/kling-3-0-ai-video-model
 2026-05-31|https://www.tubefilter.com/2026/05/18/youtube-generative-ai-deepfake-likeness-detection-rollout/
@@ -38,3 +33,8 @@
 2026-06-06|https://www.hollywoodreporter.com/business/digital/youtube-worldwide-number-users-use-ai-insert-into-videos-1236601256/
 2026-06-06|https://www.marktechpost.com/2026/06/04/nvidia-ai-releases-nemotron-3-ultra-an-open-550b-mixture-of-experts-hybrid-mamba-transformer-for-long-running-agents/
 2026-06-06|https://abcnews.com/US/wireStory/trump-administration-expands-ai-hunt-healthcare-fraud-133198614
+2026-06-07|https://www.neowin.net/news/microsoft-unveils-mai-thinking-1-reasoning-and-mai-code-1-coding-models/
+2026-06-07|https://blog.google/products-and-platforms/products/workspace/google-vids-updates-lyria-veo/
+2026-06-07|https://thenextweb.com/news/chatgpt-1-billion-monthly-active-users
+2026-06-07|https://www.msn.com/en-us/news/other/youtube-2026-update-reshapes-creator-earnings-ai-tools-and-safety/gm-GM61F1EEC3
+2026-06-07|https://fortune.com/2026/06/01/anthropic-confidentially-files-ipo-965-billion-valuation/

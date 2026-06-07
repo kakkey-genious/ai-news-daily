@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>今日のAIニュース - 2026年6月7日</title>
+  <style>
+    :root {
+      --bg: #f4f6f9;
+      --card-bg: #ffffff;
+      --text: #1a1a2e;
+      --subtext: #6b7280;
+      --border: #e5e7eb;
+      --header-bg: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f172a;
+        --card-bg: #1e293b;
+        --text: #e2e8f0;
+        --subtext: #94a3b8;
+        --border: #334155;
+      }
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Hiragino Sans', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--header-bg);
+      color: #ffffff;
+      padding: 2.5rem 1.5rem 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      margin-bottom: 0.4rem;
+    }
+
+    header .date {
+      font-size: 1rem;
+      opacity: 0.75;
+      letter-spacing: 0.05em;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin: 1.5rem auto 0.5rem;
+      padding: 0.45rem 1rem;
+      background: rgba(255,255,255,0.12);
+      border: 1px solid rgba(255,255,255,0.25);
+      border-radius: 20px;
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 0.85rem;
+      transition: background 0.2s;
+    }
+    .back-link:hover { background: rgba(255,255,255,0.22); }
+
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin-bottom: 1.25rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      transition: box-shadow 0.2s;
+    }
+    .card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.10); }
+
+    .card-header {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.75rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .card-number {
+      flex-shrink: 0;
+      width: 2rem;
+      height: 2rem;
+      background: var(--header-bg);
+      color: #fff;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 0.85rem;
+    }
+
+    .card-title {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--text);
+      line-height: 1.4;
+    }
+
+    .card-meta {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      flex-wrap: wrap;
+      margin-bottom: 0.75rem;
+      font-size: 0.82rem;
+      color: var(--subtext);
+    }
+
+    .tag {
+      display: inline-block;
+      padding: 0.2rem 0.7rem;
+      border-radius: 20px;
+      font-size: 0.78rem;
+      font-weight: 600;
+      color: #fff;
+    }
+    .tag-blue   { background: #3b82f6; }
+    .tag-purple { background: #8b5cf6; }
+    .tag-orange { background: #f59e0b; }
+    .tag-red    { background: #ef4444; }
+
+    .card-summary {
+      font-size: 0.93rem;
+      color: var(--text);
+      margin-bottom: 0.9rem;
+      line-height: 1.65;
+    }
+
+    .card-reason {
+      font-size: 0.82rem;
+      color: var(--subtext);
+      background: var(--bg);
+      border-left: 3px solid var(--border);
+      padding: 0.4rem 0.75rem;
+      border-radius: 0 6px 6px 0;
+      margin-bottom: 0.9rem;
+    }
+
+    .card-link a {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
+      font-size: 0.84rem;
+      color: #3b82f6;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .card-link a:hover { text-decoration: underline; }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.82rem;
+      color: var(--subtext);
+      border-top: 1px solid var(--border);
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <a class="back-link" href="index.html">← 一覧に戻る</a>
+  <h1>📰 今日のAIニュース</h1>
+  <div class="date">2026年6月7日（日）</div>
+</header>
+
+<main>
+
+  <!-- Card 1 -->
+  <article class="card">
+    <div class="card-header">
+      <div class="card-number">1</div>
+      <div class="card-title">Microsoft、OpenAI不依存の独自AIモデル「MAI-Thinking-1」と「MAI-Code-1-Flash」を発表</div>
+    </div>
+    <div class="card-meta">
+      <span class="tag tag-blue">実務活用</span>
+      <span>Neowin</span>
+      <span>·</span>
+      <span>2026-06-02</span>
+    </div>
+    <p class="card-summary">MicrosoftがBuild 2026開発者会議にて、OpenAI技術を使わない自社開発のAIモデル2種を発表した。推論特化型「MAI-Thinking-1」は350億のアクティブパラメータと12.8万トークンのコンテキストウィンドウを持ち、AIME 2026で94.5%という高スコアを達成。コーディング特化型「MAI-Code-1-Flash」はGitHub Copilotに統合済みで、Claude Haiku 4.5をコストパフォーマンスで上回る。MicrosoftのOpenAI依存脱却に向けた明確な一手として業界の注目を集めている。</p>
+    <div class="card-reason">💡 選定理由: 開発者・ビジネスユーザーが日常的に使うGitHub CopilotにMicrosoftの自社AIが組み込まれ、実務への影響が大きい注目ニュース。</div>
+    <div class="card-link"><a href="https://www.neowin.net/news/microsoft-unveils-mai-thinking-1-reasoning-and-mai-code-1-coding-models/" target="_blank" rel="noopener">元記事を読む →</a></div>
+  </article>
+
+  <!-- Card 2 -->
+  <article class="card">
+    <div class="card-header">
+      <div class="card-number">2</div>
+      <div class="card-title">Google Vids、Veo 3.1による無料AI動画生成を全Googleアカウントユーザーに開放</div>
+    </div>
+    <div class="card-meta">
+      <span class="tag tag-purple">動画編集</span>
+      <span>Google Blog</span>
+      <span>·</span>
+      <span>2026-04</span>
+    </div>
+    <p class="card-summary">GoogleがVidsをアップデートし、Googleアカウント保有者は誰でも月10回まで無料でVeo 3.1によるAI動画生成が利用可能になった。無料版は720p・最大8秒だが、AI ProユーザーはLyria 3によるオリジナルBGM生成やカスタマイズ可能なAIアバターも使用可能。生成した動画はChromeの新拡張機能でスクリーン録画と組み合わせ、YouTubeへ直接投稿できる新ワークフローも実現。コンテンツ制作のハードルを大幅に下げる画期的なアップデートとして注目されている。</p>
+    <div class="card-reason">💡 選定理由: 動画編集者・クリエイターにとって無料で高品質なAI動画生成が使えるようになる転換点となるアップデート。</div>
+    <div class="card-link"><a href="https://blog.google/products-and-platforms/products/workspace/google-vids-updates-lyria-veo/" target="_blank" rel="noopener">元記事を読む →</a></div>
+  </article>
+
+  <!-- Card 3 -->
+  <article class="card">
+    <div class="card-header">
+      <div class="card-number">3</div>
+      <div class="card-title">ChatGPT、月間10億ユーザー突破 — スマホアプリ史上最速の偉業を達成</div>
+    </div>
+    <div class="card-meta">
+      <span class="tag tag-orange">意外な活用</span>
+      <span>The Next Web</span>
+      <span>·</span>
+      <span>2026-06-03</span>
+    </div>
+    <p class="card-summary">ChatGPTが月間アクティブユーザー10億人を突破し、人類のアプリ史上最速達成として記録を更新した（Sensor Tower調べ）。TikTokやInstagram、Googleマップなどがこのマイルストーンまでにかかった5〜8年を、ChatGPTは約3年で達成。一方、競合のClaudeも月間5,600万ユーザーで前年比640%成長と急伸しており、AI利用が社会全体に急速に浸透していることを示す象徴的な節目となった。</p>
+    <div class="card-reason">💡 選定理由: AIが日常ツールとして10億人規模で使われる時代の到来を示す、驚きのスケール達成ニュース。</div>
+    <div class="card-link"><a href="https://thenextweb.com/news/chatgpt-1-billion-monthly-active-users" target="_blank" rel="noopener">元記事を読む →</a></div>
+  </article>
+
+  <!-- Card 4 -->
+  <article class="card">
+    <div class="card-header">
+      <div class="card-number">4</div>
+      <div class="card-title">YouTube 2026年大型AIアップデート：クリエイター収益・安全性・AI創作ツールが大幅刷新</div>
+    </div>
+    <div class="card-meta">
+      <span class="tag tag-red">YouTube</span>
+      <span>MSN / YouTube</span>
+      <span>·</span>
+      <span>2026-06</span>
+    </div>
+    <p class="card-summary">YouTubeが2026年の大型アップデートを発表。クリエイターが自分の外見を使ったShortsをAI生成できる「リアルネス生成」機能や、テキストプロンプトで動画を再構成・編集できる「Reimagine」ツールが追加された。テキストでゲームを生成する実験的Playables機能も拡張。AIツールを日次で活用するチャンネルが100万件超に達するなか、AIスロップ（粗悪AI生成コンテンツ）対策も強化され、プラットフォームの質を守る姿勢が明確化された。</p>
+    <div class="card-reason">💡 選定理由: YouTubeクリエイターが直接使えるAI機能の拡充と収益への影響、スパム対策強化まで多岐にわたる重要アップデート。</div>
+    <div class="card-link"><a href="https://www.msn.com/en-us/news/other/youtube-2026-update-reshapes-creator-earnings-ai-tools-and-safety/gm-GM61F1EEC3" target="_blank" rel="noopener">元記事を読む →</a></div>
+  </article>
+
+  <!-- Card 5 -->
+  <article class="card">
+    <div class="card-header">
+      <div class="card-number">5</div>
+      <div class="card-title">Anthropic、IPO秘密申請 — 評価額9,650億ドルでOpenAIを超え、AI史上最大規模の上場へ</div>
+    </div>
+    <div class="card-meta">
+      <span class="tag tag-blue">実務活用</span>
+      <span>Fortune</span>
+      <span>·</span>
+      <span>2026-06-01</span>
+    </div>
+    <p class="card-summary">AnthropicがSECへ秘密裏にIPO申請書（S-1）を提出し、今秋の上場に向けて準備を進めていることが明らかになった。直近の65億ドル調達ラウンドでOpenAI（8,520億ドル）を超える9,650億ドルの評価額を達成。年換算売上高は470億ドル規模に急成長し、Q2だけで109億ドルを予測。法律・コーディング・エンタープライズ向けのClaudeサービス拡充が成長を牽引しており、AI産業全体の勢いと投資家の期待を象徴するマイルストーンとなっている。</p>
+    <div class="card-reason">💡 選定理由: Claude利用者・AI業界関係者にとって最重要級のビジネスニュース。IPOはAI産業の次章を告げる節目となる。</div>
+    <div class="card-link"><a href="https://fortune.com/2026/06/01/anthropic-confidentially-files-ipo-965-billion-valuation/" target="_blank" rel="noopener">元記事を読む →</a></div>
+  </article>
+
+</main>
+
+<footer>
+  AI News Daily · Generated by Claude · <a href="https://github.com/kakkey-genious" style="color:inherit;">kakkey-genious</a>
+</footer>
+
+</body>
+</html>
