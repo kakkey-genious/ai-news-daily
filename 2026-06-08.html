@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AIニュース 2026-06-08 | AI News Daily</title>
+  <style>
+    :root {
+      --bg: #f4f6f9;
+      --card-bg: #ffffff;
+      --text: #1a1a2e;
+      --subtext: #6b7280;
+      --border: #e5e7eb;
+      --header-bg: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f172a;
+        --card-bg: #1e293b;
+        --text: #e2e8f0;
+        --subtext: #94a3b8;
+        --border: #334155;
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Hiragino Sans', 'Noto Sans JP', sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    header {
+      background: var(--header-bg);
+      color: #fff;
+      padding: 2.5rem 1.5rem 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 1.8rem;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      margin-bottom: 0.4rem;
+    }
+
+    header .date {
+      font-size: 0.95rem;
+      opacity: 0.75;
+      letter-spacing: 0.05em;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin: 1.5rem auto 0;
+      background: rgba(255,255,255,0.15);
+      color: #fff;
+      text-decoration: none;
+      padding: 0.4rem 1rem;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      transition: background 0.2s;
+    }
+    .back-link:hover {
+      background: rgba(255,255,255,0.25);
+    }
+
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem 1rem 3rem;
+    }
+
+    .news-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin-bottom: 1.25rem;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+      transition: box-shadow 0.2s;
+    }
+    .news-card:hover {
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .card-header {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.75rem;
+      margin-bottom: 0.85rem;
+    }
+
+    .card-number {
+      flex-shrink: 0;
+      width: 2rem;
+      height: 2rem;
+      border-radius: 50%;
+      background: var(--header-bg);
+      color: #fff;
+      font-size: 0.85rem;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .card-title {
+      font-size: 1.05rem;
+      font-weight: 700;
+      line-height: 1.45;
+      color: var(--text);
+    }
+
+    .card-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      align-items: center;
+      margin-bottom: 0.85rem;
+      font-size: 0.82rem;
+      color: var(--subtext);
+    }
+
+    .tag {
+      display: inline-block;
+      padding: 0.2rem 0.7rem;
+      border-radius: 20px;
+      font-size: 0.78rem;
+      font-weight: 600;
+      color: #fff;
+    }
+    .tag-blue   { background-color: #3b82f6; }
+    .tag-purple { background-color: #8b5cf6; }
+    .tag-orange { background-color: #f59e0b; }
+    .tag-red    { background-color: #ef4444; }
+
+    .card-summary {
+      font-size: 0.92rem;
+      color: var(--text);
+      margin-bottom: 0.9rem;
+      line-height: 1.7;
+    }
+
+    .card-reason {
+      font-size: 0.82rem;
+      color: var(--subtext);
+      background: var(--bg);
+      border-left: 3px solid var(--border);
+      padding: 0.4rem 0.75rem;
+      border-radius: 0 4px 4px 0;
+      margin-bottom: 0.9rem;
+    }
+
+    .card-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
+      font-size: 0.84rem;
+      color: #3b82f6;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .card-link:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.82rem;
+      color: var(--subtext);
+      border-top: 1px solid var(--border);
+    }
+
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.4rem; }
+      .card-title { font-size: 0.97rem; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>📰 今日のAIニュース</h1>
+  <p class="date">2026年6月8日（月）</p>
+  <a href="index.html" class="back-link">← 一覧に戻る</a>
+</header>
+
+<main>
+
+  <!-- Card 1 -->
+  <article class="news-card">
+    <div class="card-header">
+      <div class="card-number">1</div>
+      <h2 class="card-title">Apple WWDC 2026：Gemini搭載の新Siri & iOS 27を本日発表</h2>
+    </div>
+    <div class="card-meta">
+      <span class="tag tag-blue">実務活用</span>
+      <span>Let's Data Science</span>
+      <span>·</span>
+      <span>2026年6月8日</span>
+    </div>
+    <p class="card-summary">AppleがWWDC 2026（本日開幕）にて、GoogleのGeminiモデルを年間約10億ドルのライセンス料で採用した全面刷新版Siriを発表。システム全体から呼び出せる新UIと、メール・写真・ファイルへのパーソナルコンテキストアクセス機能を備える。iOS 27ではAI写真編集ツール「Extend」「Enhance」「Reframe」も追加。macOS 27はApple Siliconのみのサポートへ移行する方針。</p>
+    <div class="card-reason">📌 選定理由: 世界で最も使われているスマートフォンのAIアシスタントがGemini統合で大きく進化。iPhone利用者・ビジネスユーザー全員に影響する実務活用の最重要ニュース。</div>
+    <a href="https://letsdatascience.com/news/apple-unveils-gemini-powered-siri-and-ios-27-at-wwdc-2026-b757953c" target="_blank" rel="noopener" class="card-link">元記事を読む →</a>
+  </article>
+
+  <!-- Card 2 -->
+  <article class="news-card">
+    <div class="card-header">
+      <div class="card-number">2</div>
+      <h2 class="card-title">Anthropicが衝撃告白：Claudeが自社本番コードの80%以上を自ら生成</h2>
+    </div>
+    <div class="card-meta">
+      <span class="tag tag-orange">意外な活用</span>
+      <span>Tom's Hardware</span>
+      <span>·</span>
+      <span>2026年6月5日</span>
+    </div>
+    <p class="card-summary">Anthropicが2026年5月のデータとして、自社の本番コードにマージされた変更の80%以上がClaudeによって作成されたと公表。エンジニア1人あたりのコード出荷量は2021年比で8倍に増加した。同社は同時に「AIが自らの後継モデルを設計できる再帰的自己改善」段階が近づいており、人類がAIの制御を失うリスクがあるとして、主要AI企業に開発一時停止の枠組み整備を呼びかけた。</p>
+    <div class="card-reason">📌 選定理由: 「AIを作るAI」が現実になりつつあるという驚きの事実と、その開発企業自身が鳴らす警鐘は、AI活用の未来を考える上で欠かせない意外な視点。</div>
+    <a href="https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-says-claude-now-writes-more-than-80-percent-of-its-merged-code" target="_blank" rel="noopener" class="card-link">元記事を読む →</a>
+  </article>
+
+  <!-- Card 3 -->
+  <article class="news-card">
+    <div class="card-header">
+      <div class="card-number">3</div>
+      <h2 class="card-title">YouTube「Ask Studio」：クリエイターがAIにチャンネル分析を質問できる新機能</h2>
+    </div>
+    <div class="card-meta">
+      <span class="tag tag-red">YouTube</span>
+      <span>Search Engine Journal</span>
+      <span>·</span>
+      <span>2026年6月</span>
+    </div>
+    <p class="card-summary">YouTubeがYouTube Studioに組み込みAIチャットボット「Ask Studio」を本格展開。視聴者コメントのテーマ分析、チャンネルパフォーマンスの解説、次回動画のアイデア提案などを会話形式で取得できる。直近ではVeo 3 FastとGemini Omniを使った動画リミックス・Shorts生成機能、および「会話履歴」保存機能も追加され、クリエイターのデータドリブンな制作体制を支援する。</p>
+    <div class="card-reason">📌 選定理由: YouTubeクリエイターがStudio内のAIと対話してデータを即座に活用できるようになる実践的な機能で、コンテンツ戦略の質が変わる可能性がある。</div>
+    <a href="https://www.searchenginejournal.com/youtube-introduces-ask-studio-ai-for-channel-analytics/559399/" target="_blank" rel="noopener" class="card-link">元記事を読む →</a>
+  </article>
+
+  <!-- Card 4 -->
+  <article class="news-card">
+    <div class="card-header">
+      <div class="card-number">4</div>
+      <h2 class="card-title">Sondo AIがAI音楽動画向けプロフェッショナル・ビデオエディターを正式リリース</h2>
+    </div>
+    <div class="card-meta">
+      <span class="tag tag-purple">動画編集</span>
+      <span>Yahoo Finance</span>
+      <span>·</span>
+      <span>2026年6月2日</span>
+    </div>
+    <p class="card-summary">Sondo AIが音楽動画制作ワークフローに特化したプロ仕様ビデオエディターを発表。楽曲のビート・ムード・構成を自動解析して映像と同期させる機能を中心に、マルチトラック編集・視覚エフェクト・リアルタイムコラボレーション・字幕編集に対応。シーン再構成を即座に確認できるリアルタイムプレビューにより、ミュージシャンや映像クリエイターが最初からやり直す手間なく高速に反復制作できる環境を実現する。</p>
+    <div class="card-reason">📌 選定理由: 音楽×映像のAI統合エディターという新カテゴリのツール。MV制作・ライブ映像編集など映像クリエイター向け実践的なAI動画編集ニュース。</div>
+    <a href="https://finance.yahoo.com/sectors/technology/articles/sondo-ai-launches-professional-video-124500187.html" target="_blank" rel="noopener" class="card-link">元記事を読む →</a>
+  </article>
+
+  <!-- Card 5 -->
+  <article class="news-card">
+    <div class="card-header">
+      <div class="card-number">5</div>
+      <h2 class="card-title">超党派「グレート・アメリカン・AI法案」草案：米国初の包括的連邦AI規制フレームワークを提示</h2>
+    </div>
+    <div class="card-meta">
+      <span class="tag tag-blue">実務活用</span>
+      <span>FedScoop</span>
+      <span>·</span>
+      <span>2026年6月4日</span>
+    </div>
+    <p class="card-summary">下院議員のObernolte（共和）とTrahan（民主）が269ページに及ぶ「グレート・アメリカン・AI法案」草案を公開。年収5億ドル超のAI大企業に半年ごとの第三者監査を義務付け、州のAI法整備を3年間凍結する条項を盛り込む。AI安全機関（CAISI）の正式設置も規定するが、消費者保護団体・労働組合・民主党内委員会から批判が殺到しており、今後の審議が注目される。</p>
+    <div class="card-reason">📌 選定理由: AI規制の方向性はビジネスのコンプライアンス・製品開発に直結する。米国の連邦AI規制の枠組みが初めて具体化された歴史的な草案として必読。</div>
+    <a href="https://fedscoop.com/bipartisan-great-american-ai-act-draft-proposes-new-federal-ai-governance-framework/" target="_blank" rel="noopener" class="card-link">元記事を読む →</a>
+  </article>
+
+</main>
+
+<footer>
+  AI News Daily &middot; Generated by Claude &middot; <a href="https://github.com/kakkey-genious/ai-news-daily" style="color:inherit;">kakkey-genious</a>
+</footer>
+
+</body>
+</html>
