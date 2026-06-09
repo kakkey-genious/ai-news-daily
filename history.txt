@@ -1,8 +1,3 @@
-2026-06-01|https://www.servethehome.com/nvidia-computex-2026-keynote-live-coverage/
-2026-06-01|https://www.tomsguide.com/phones/iphones/wwdc-2026
-2026-06-01|https://nofilmschool.com/adobe-motionstream-ai
-2026-06-01|https://nofilmschool.com/eddie-ai-night-shift
-2026-06-01|https://letsdatascience.com/news/nyt-union-challenges-ai-performance-monitoring-practices-38b63a52
 2026-06-02|https://dataconomy.com/2026/06/01/apple-siri-ios-27-wwdc-2026/
 2026-06-02|https://nofilmschool.com/imagen-video-release
 2026-06-02|https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense/
@@ -38,3 +33,8 @@
 2026-06-08|https://www.searchenginejournal.com/youtube-introduces-ask-studio-ai-for-channel-analytics/559399/
 2026-06-08|https://finance.yahoo.com/sectors/technology/articles/sondo-ai-launches-professional-video-124500187.html
 2026-06-08|https://fedscoop.com/bipartisan-great-american-ai-act-draft-proposes-new-federal-ai-governance-framework/
+2026-06-09|https://www.macrumors.com/2026/06/08/apple-announces-siri-ai/
+2026-06-09|https://wavespeed.ai/blog/posts/seedance-2-0-vs-kling-3-0-sora-2-veo-3-1-video-generation-comparison-2026/
+2026-06-09|https://socialbee.com/blog/youtube-updates/
+2026-06-09|https://www.buildfastwithai.com/blogs/ai-news-today-june-8-2026
+2026-06-09|https://www.nbcnews.com/business/markets/openai-chatgpt-files-ipo-rcna349101
