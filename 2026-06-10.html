@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>📰 今日のAIニュース | 2026-06-10</title>
+  <style>
+    :root {
+      --bg: #f4f6f9;
+      --card-bg: #ffffff;
+      --text: #1a1a2e;
+      --subtext: #6b7280;
+      --border: #e5e7eb;
+      --header-bg: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f172a;
+        --card-bg: #1e293b;
+        --text: #e2e8f0;
+        --subtext: #94a3b8;
+        --border: #334155;
+      }
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+    }
+
+    header {
+      background: var(--header-bg);
+      color: #fff;
+      padding: 2.5rem 1.5rem 2rem;
+      text-align: center;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-bottom: 1rem;
+      color: rgba(255,255,255,0.75);
+      text-decoration: none;
+      font-size: 0.9rem;
+      transition: color 0.2s;
+    }
+    .back-link:hover { color: #fff; }
+
+    header h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+
+    header .date {
+      margin-top: 0.5rem;
+      font-size: 1rem;
+      color: rgba(255,255,255,0.7);
+    }
+
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem 1.25rem;
+    }
+
+    .section-label {
+      font-size: 0.8rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--subtext);
+      margin-bottom: 1.25rem;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin-bottom: 1.25rem;
+      transition: box-shadow 0.2s;
+    }
+    .card:hover { box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
+
+    .card-header {
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+      margin-bottom: 0.9rem;
+    }
+
+    .card-number {
+      flex-shrink: 0;
+      width: 2rem;
+      height: 2rem;
+      background: var(--header-bg);
+      color: #fff;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.85rem;
+      font-weight: 700;
+    }
+
+    .card-meta { flex: 1; }
+
+    .card-title {
+      font-size: 1.05rem;
+      font-weight: 700;
+      line-height: 1.45;
+      margin-bottom: 0.3rem;
+      color: var(--text);
+    }
+
+    .card-source-date {
+      font-size: 0.8rem;
+      color: var(--subtext);
+    }
+
+    .card-summary {
+      font-size: 0.9rem;
+      line-height: 1.7;
+      color: var(--text);
+      margin-bottom: 1rem;
+    }
+
+    .card-footer {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      margin-top: 0.75rem;
+    }
+
+    .tag {
+      display: inline-block;
+      padding: 0.25rem 0.7rem;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: #fff;
+    }
+
+    .tag-business { background: #3b82f6; }
+    .tag-video    { background: #8b5cf6; }
+    .tag-unique   { background: #f59e0b; }
+    .tag-youtube  { background: #ef4444; }
+
+    .reason {
+      font-size: 0.78rem;
+      color: var(--subtext);
+      flex: 1;
+      min-width: 180px;
+    }
+
+    .read-more {
+      display: inline-block;
+      padding: 0.35rem 0.9rem;
+      background: var(--header-bg);
+      color: #fff;
+      border-radius: 6px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: opacity 0.2s;
+      white-space: nowrap;
+    }
+    .read-more:hover { opacity: 0.85; }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.8rem;
+      color: var(--subtext);
+      border-top: 1px solid var(--border);
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <a class="back-link" href="index.html">← 一覧に戻る</a>
+  <h1>📰 今日のAIニュース</h1>
+  <p class="date">2026年6月10日（水）</p>
+</header>
+
+<main>
+  <p class="section-label">本日のピックアップ 5件</p>
+
+  <!-- Card 1 -->
+  <article class="card">
+    <div class="card-header">
+      <div class="card-number">1</div>
+      <div class="card-meta">
+        <div class="card-title">日本三大メガバンクがAnthropicの最先端AI「Claude Mythos」へのアクセスを取得 — サイバー防衛に本格活用</div>
+        <div class="card-source-date">Nikkei Asia &nbsp;·&nbsp; 2026-06-10</div>
+      </div>
+    </div>
+    <p class="card-summary">三菱UFJ銀行・三井住友銀行・みずほ銀行の三大メガバンクが、Anthropicの高度AIモデル「Claude Mythos」へのアクセスを取得。日本政府も含め、サイバーセキュリティの脆弱性発見・修正草案の作成を主目的に導入される。MythosはAnthropicの限定プレビュー段階にあるモデルで、これまで米国・一部欧州パートナーに限定されていた。Anthropicは同日、15カ国以上の約150組織にパートナーシップを拡大すると発表した。</p>
+    <div class="card-footer">
+      <span class="tag tag-business">実務活用</span>
+      <span class="reason">日本の金融機関が最先端AIをサイバー防衛に本格導入した歴史的事例</span>
+      <a class="read-more" href="https://asia.nikkei.com/business/finance/japan-megabanks-to-gain-access-to-anthropic-s-powerful-ai-model-mythos" target="_blank" rel="noopener">元記事を読む →</a>
+    </div>
+  </article>
+
+  <!-- Card 2 -->
+  <article class="card">
+    <div class="card-header">
+      <div class="card-number">2</div>
+      <div class="card-meta">
+        <div class="card-title">AKOOL、AI生成・実行・管理を一元化した「Agentic Canvas」ビジュアルワークスペースを発表</div>
+        <div class="card-source-date">PR Newswire &nbsp;·&nbsp; 2026-06-09</div>
+      </div>
+    </div>
+    <p class="card-summary">AI動画・コンテンツ制作プラットフォームのAKOOLが「Agentic Canvas」を発表。チャット型AIの域を超え、コンテンツ生成（Generation）・ワークフローのオーケストレーション（Orchestration）・タスク実行（Execution）を一つのビジュアルワークスペースに統合。プロンプト入力だけでコンセプトから完成動画まで自動生成でき、制作コストの削減と業務変革を同時に実現する次世代ツールとして注目を集めている。</p>
+    <div class="card-footer">
+      <span class="tag tag-video">動画編集</span>
+      <span class="reason">AIエージェントが「指示型」から「実行型」へ進化する2026年トレンドを体現する新ツール</span>
+      <a class="read-more" href="https://www.prnewswire.com/news-releases/akool-launches-agentic-canvas-to-redefine-how-work-gets-done-with-ai-302795966.html" target="_blank" rel="noopener">元記事を読む →</a>
+    </div>
+  </article>
+
+  <!-- Card 3 -->
+  <article class="card">
+    <div class="card-header">
+      <div class="card-number">3</div>
+      <div class="card-meta">
+        <div class="card-title">「戦争には安全すぎる」——米ペンタゴンがAnthropicのClaudeを軍事システムから排除、OpenAI・Googleに切り替え検討</div>
+        <div class="card-source-date">OpenTools &nbsp;·&nbsp; 2026-06-08</div>
+      </div>
+    </div>
+    <p class="card-summary">米国防総省がAnthropicのClaudeを軍事分類ネットワーク「Maven Smart System」から排除し、OpenAI・Googleのモデルへの乗り換えを検討中。Anthropicが「大量監視」「自律型兵器への使用」を禁じる安全ポリシーの削除を拒否したことが発端で、「サプライチェーンリスク」に認定された。現在25名のパワーユーザーが代替モデルを評価しており、Anthropicは法的措置を準備中。AIの安全性ポリシーが軍事利用と正面衝突した前例のない対立。</p>
+    <div class="card-footer">
+      <span class="tag tag-unique">意外な活用</span>
+      <span class="reason">AIの倫理ガイドラインと軍事ニーズの衝突という前代未聞の事案</span>
+      <a class="read-more" href="https://opentools.ai/news/pentagon-tests-openai-google-ai-replace-anthropic-claude" target="_blank" rel="noopener">元記事を読む →</a>
+    </div>
+  </article>
+
+  <!-- Card 4 -->
+  <article class="card">
+    <div class="card-header">
+      <div class="card-number">4</div>
+      <div class="card-meta">
+        <div class="card-title">YouTubeがインタラクティブAI検索と動画リミックス機能をクリエイター向けに本格展開</div>
+        <div class="card-source-date">YouTube Blog &nbsp;·&nbsp; 2026-06-10</div>
+      </div>
+    </div>
+    <p class="card-summary">YouTubeがGoogle DeepMindのVeo 3 Fastを統合した「インタラクティブ検索」と「AI動画リミックス」機能をクリエイター向けに正式展開。テキストプロンプトから映像クリップを即生成できるほか、Shorts専用「Reimagine」機能で既存動画をAIが自動変換・再創造可能に。クリエイターの肖像権を守る「ライクネス検出ツール」を18歳以上の全クリエイターへ拡大展開し、AIによる制作支援と権利保護の両立を図る。</p>
+    <div class="card-footer">
+      <span class="tag tag-youtube">YouTube</span>
+      <span class="reason">YouTubeクリエイターの制作フローを根本から変革する大型AI機能の一斉展開</span>
+      <a class="read-more" href="https://blog.youtube/news-and-events/youtube-news-google-io-2026/" target="_blank" rel="noopener">元記事を読む →</a>
+    </div>
+  </article>
+
+  <!-- Card 5 -->
+  <article class="card">
+    <div class="card-header">
+      <div class="card-number">5</div>
+      <div class="card-meta">
+        <div class="card-title">コロラド州AI法が大幅改正・施行を2027年1月に延期 — 企業の準備計画見直しが必要に</div>
+        <div class="card-source-date">Hunton Andrews Kurth &nbsp;·&nbsp; 2026年6月</div>
+      </div>
+    </div>
+    <p class="card-summary">全米初の包括的AI規制法として注目されたコロラド州AI法が大幅改正され、施行が2026年6月30日から2027年1月1日に延期。差別的アルゴリズムへの「注意義務」やリスク管理プログラムの整備義務など元法の厳格な要件が大幅緩和された。雇用における自動化ツールへの適用規定は一部維持されるが、対応準備中の企業は現行スケジュールを見直す必要がある。EU AI法の適用開始が8月に迫る中、米国内でのAI規制の方向性に注目が集まる。</p>
+    <div class="card-footer">
+      <span class="tag tag-business">実務活用</span>
+      <span class="reason">AI活用を進める企業が今すぐ確認すべきコンプライアンス上の重要変更</span>
+      <a class="read-more" href="https://www.hunton.com/privacy-and-cybersecurity-law-blog/colorado-ai-act-amended-and-effective-date-delayed" target="_blank" rel="noopener">元記事を読む →</a>
+    </div>
+  </article>
+
+</main>
+
+<footer>
+  AI News Daily &nbsp;·&nbsp; Generated by Claude &nbsp;·&nbsp; kakkey-genious
+</footer>
+
+</body>
+</html>
