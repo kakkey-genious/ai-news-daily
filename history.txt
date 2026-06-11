@@ -1,8 +1,3 @@
-2026-06-03|https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/
-2026-06-03|https://www.techtimes.com/articles/317625/20260602/anthropic-ends-subscription-subsidy-agents-june-15-credit-pool-replaces-flat-rate-access.htm
-2026-06-03|https://nofilmschool.com/darren-aronofsky-launched-generative-ai
-2026-06-03|https://mobilesyrup.com/2026/06/02/duckduckgo-no-ai-search-traffic-boom/
-2026-06-03|https://blockchain.news/news/youtube-ai-tools-brandcast-2026
 2026-06-04|https://www.cnbc.com/2026/06/02/microsoft-unveils-new-ai-models-lessen-reliance-on-openai-lower-costs.html
 2026-06-04|https://www.anthropic.com/news/services-track-partner-hub
 2026-06-04|https://nofilmschool.com/runway-seedance-2-0
@@ -38,3 +33,8 @@
 2026-06-10|https://opentools.ai/news/pentagon-tests-openai-google-ai-replace-anthropic-claude
 2026-06-10|https://blog.youtube/news-and-events/youtube-news-google-io-2026/
 2026-06-10|https://www.hunton.com/privacy-and-cybersecurity-law-blog/colorado-ai-act-amended-and-effective-date-delayed
+2026-06-11|https://openai.com/index/openai-on-oracle-cloud/
+2026-06-11|https://www.anthropic.com/news/claude-fable-5-mythos-5
+2026-06-11|https://help.openai.com/en/articles/20001152-what-to-know-about-the-sora-discontinuation
+2026-06-11|https://blog.youtube/news-and-events/improving-ai-labels-viewers-creators/
+2026-06-11|https://www.anthropic.com/institute/recursive-self-improvement
