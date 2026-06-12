@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AIニュース 2026-06-12 | AI News Daily</title>
+  <style>
+    :root {
+      --bg: #f4f6f9;
+      --card-bg: #ffffff;
+      --text: #1a1a2e;
+      --subtext: #6b7280;
+      --border: #e5e7eb;
+      --header-bg: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f172a;
+        --card-bg: #1e293b;
+        --text: #e2e8f0;
+        --subtext: #94a3b8;
+        --border: #334155;
+      }
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Hiragino Sans', 'Noto Sans JP', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    header {
+      background: var(--header-bg);
+      color: #fff;
+      padding: 2.5rem 1.5rem 2rem;
+      text-align: center;
+    }
+    header .back-link {
+      display: inline-block;
+      color: rgba(255,255,255,0.7);
+      text-decoration: none;
+      font-size: 0.85rem;
+      margin-bottom: 1rem;
+      transition: color 0.2s;
+    }
+    header .back-link:hover { color: #fff; }
+    header h1 { font-size: 1.9rem; font-weight: 700; letter-spacing: 0.02em; }
+    header .date-label {
+      margin-top: 0.5rem;
+      color: rgba(255,255,255,0.65);
+      font-size: 0.95rem;
+      letter-spacing: 0.04em;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem 1.25rem 3rem;
+    }
+
+    .news-count {
+      font-size: 0.85rem;
+      color: var(--subtext);
+      margin-bottom: 1.5rem;
+      text-align: right;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1.5rem 1.75rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      transition: transform 0.15s, box-shadow 0.15s;
+    }
+    .card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.09);
+    }
+
+    .card-header {
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+      margin-bottom: 0.9rem;
+    }
+    .card-number {
+      font-size: 1.4rem;
+      font-weight: 800;
+      color: var(--subtext);
+      min-width: 2rem;
+      line-height: 1;
+      padding-top: 0.1rem;
+    }
+    .card-title-block { flex: 1; }
+    .card-title {
+      font-size: 1.08rem;
+      font-weight: 700;
+      color: var(--text);
+      line-height: 1.45;
+      margin-bottom: 0.3rem;
+    }
+    .card-meta {
+      font-size: 0.78rem;
+      color: var(--subtext);
+    }
+
+    .tag {
+      display: inline-block;
+      padding: 0.22em 0.7em;
+      border-radius: 20px;
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.03em;
+      margin-bottom: 0.8rem;
+      color: #fff;
+    }
+    .tag-blue   { background: #3b82f6; }
+    .tag-purple { background: #8b5cf6; }
+    .tag-orange { background: #f59e0b; }
+    .tag-red    { background: #ef4444; }
+
+    .summary {
+      font-size: 0.94rem;
+      color: var(--text);
+      margin-bottom: 0.9rem;
+      line-height: 1.75;
+    }
+
+    .reason {
+      font-size: 0.82rem;
+      color: var(--subtext);
+      border-left: 3px solid var(--border);
+      padding-left: 0.75rem;
+      margin-bottom: 1rem;
+      font-style: italic;
+    }
+
+    .card-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      font-size: 0.82rem;
+      color: #3b82f6;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.15s;
+    }
+    .card-link:hover { color: #1d4ed8; text-decoration: underline; }
+    .card-link::after { content: '→'; font-size: 0.85em; }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.78rem;
+      color: var(--subtext);
+      border-top: 1px solid var(--border);
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <a href="index.html" class="back-link">← 一覧に戻る</a>
+  <h1>📰 今日のAIニュース</h1>
+  <p class="date-label">2026年6月12日（金）</p>
+</header>
+
+<main>
+  <p class="news-count">本日の厳選記事：5件</p>
+
+  <!-- Card 1 -->
+  <article class="card">
+    <div class="card-header">
+      <span class="card-number">1</span>
+      <div class="card-title-block">
+        <h2 class="card-title">9割の人がAI生成コンテンツと本物を見分けられなくなった—Malwarebytes最新調査</h2>
+        <p class="card-meta">Help Net Security &nbsp;·&nbsp; 2026-06-11</p>
+      </div>
+    </div>
+    <span class="tag tag-orange">意外な活用</span>
+    <p class="summary">
+      Malwarebytesの調査によると、AI生成コンテンツと本物を区別できない人の割合が2025年の66%から2026年は85%に急増。過去1年でAI詐欺を経験した人は半数にのぼり、個人化されたフィッシング、偽レビュー、AIボイスなりすましなどが横行。ディープフェイク検知技術も生成モデルの進歩に追いつけず、研究者は「スタンドアロン検知はほぼ無力化されつつある」と警鐘を鳴らしている。
+    </p>
+    <p class="reason">選定理由：AIが社会インフラに与える意外な副作用として、ディープフェイクの普及がデジタルへの信頼を根本から揺るがしている現状を示す最新データ。</p>
+    <a href="https://www.helpnetsecurity.com/2026/06/11/ai-scams-deepfakes-survey/" target="_blank" rel="noopener" class="card-link">元記事を読む</a>
+  </article>
+
+  <!-- Card 2 -->
+  <article class="card">
+    <div class="card-header">
+      <span class="card-number">2</span>
+      <div class="card-title-block">
+        <h2 class="card-title">ハリウッドがAIを議論する傍ら、インドの映像制作者はAIを全面採用—初日650万ビューの衝撃</h2>
+        <p class="card-meta">CNBC (Inside India) &nbsp;·&nbsp; 2026-06-11</p>
+      </div>
+    </div>
+    <span class="tag tag-purple">動画編集</span>
+    <p class="summary">
+      JioStarが生成AIで制作した100話シリーズ「マハーバーラタ：一なる法の戦争」が初日650万ビューを記録。従来比3〜5倍速い制作を実現し、JioHotstarは75以上のAI専門職（Visionscaper、Soundscaper等）の採用を計画中。ハリウッドが慎重姿勢を崩せないでいる一方、インドのコンテンツ産業は生成AI映像制作の世界的先駆者として台頭している。
+    </p>
+    <p class="reason">選定理由：大規模AI映像制作の最前線事例。インドの取り組みはグローバルな映像産業のAI活用の未来を先取りしており、動画クリエイターや映像制作者にとって必読のレポート。</p>
+    <a href="https://www.cnbc.com/2026/06/11/how-indian-filmmakers-are-using-generative-ai.html" target="_blank" rel="noopener" class="card-link">元記事を読む</a>
+  </article>
+
+  <!-- Card 3 -->
+  <article class="card">
+    <div class="card-header">
+      <span class="card-number">3</span>
+      <div class="card-title-block">
+        <h2 class="card-title">Microsoft Work IQ APIが6月16日GA—企業向けAIエージェント構築基盤がついに一般公開</h2>
+        <p class="card-meta">Microsoft 365 Developer Blog &nbsp;·&nbsp; 2026-06-02（GA: 2026-06-16）</p>
+      </div>
+    </div>
+    <span class="tag tag-blue">実務活用</span>
+    <p class="summary">
+      MicrosoftのWork IQ APIが今週6月16日に一般提供開始。Teams・Outlook・SharePoint・OneDriveなどM365の企業データにAIエージェントがアクセスできる基盤で、A2A、リモートMCPサーバー、REST APIの3形式に対応。Copilot Creditsによる従量課金モデルを採用し、M365ライセンスとは独立して利用可能。企業のAIエージェント開発・導入コストが大幅に下がる。
+    </p>
+    <p class="reason">選定理由：多くの企業が利用するMicrosoft 365環境でAIエージェントを本番運用できる重要インフラが今週公開。実務でのAI活用が一気に加速する可能性がある重大アップデート。</p>
+    <a href="https://devblogs.microsoft.com/microsoft365dev/work-iq-production-ready-intelligence-for-every-agent/" target="_blank" rel="noopener" class="card-link">元記事を読む</a>
+  </article>
+
+  <!-- Card 4 -->
+  <article class="card">
+    <div class="card-header">
+      <span class="card-number">4</span>
+      <div class="card-title-block">
+        <h2 class="card-title">DeepSeek V4 Pro、AI API価格戦争で75%値下げを永続化—GPT-5比34倍安の衝撃</h2>
+        <p class="card-meta">The Next Web &nbsp;·&nbsp; 2026-05-23</p>
+      </div>
+    </div>
+    <span class="tag tag-blue">実務活用</span>
+    <p class="summary">
+      DeepSeekがV4 ProのAPI出力料金を75%恒久値下げし、1Mトークンあたり$0.87（キャッシュ済み入力は$0.0036）を実現。GPT-5.5比で34倍、Claude Opus 4.7比で17倍安く、AI API市場の新たな価格標準を設定した。MoE（混合エキスパート）アーキテクチャと圧縮アテンションで採算性を確保。エージェント型ワークフローのコストが事実上ゼロに近づく。
+    </p>
+    <p class="reason">選定理由：AIビジネス活用の最大のハードルだったAPI費用が劇的に下がる。中小企業・個人開発者への生成AI導入障壁が大幅に低下し、新たなビジネスモデルが生まれる可能性がある重要ニュース。</p>
+    <a href="https://thenextweb.com/news/deepseek-v4-pro-75-percent-price-cut-permanent" target="_blank" rel="noopener" class="card-link">元記事を読む</a>
+  </article>
+
+  <!-- Card 5 -->
+  <article class="card">
+    <div class="card-header">
+      <span class="card-number">5</span>
+      <div class="card-title-block">
+        <h2 class="card-title">YouTube 2026クリエイターAIツール全解説—Veo 3 Fast・Reimagine・AIモネタイズの4大変化</h2>
+        <p class="card-meta">Podcast Videos &nbsp;·&nbsp; 2026-06</p>
+      </div>
+    </div>
+    <span class="tag tag-red">YouTube</span>
+    <p class="summary">
+      YouTubeが2026年のクリエイター向けAI機能をBrandcast・Google I/Oで相次いで発表。①Google DeepMindとの共同開発「Veo 3 Fast」によるAI動画生成、②ShortsのAI映像変換機能「Reimagine」、③ライブ配信の収益化強化、④AIによるカスタムスポンサーシップマッチング—の4つが主要変化。ExpressiveCaptionsの全端末展開も進行中で、制作・収益化の両面でAI化が加速している。
+    </p>
+    <p class="reason">選定理由：YouTubeがAIクリエイターツールを全面的に強化中。動画投稿者の制作プロセスと収益モデルに直接影響する機能群を包括的にまとめた必読ガイド。</p>
+    <a href="https://www.podcastvideos.com/articles/youtube-2026-updates-ai-live-streaming-monetization/" target="_blank" rel="noopener" class="card-link">元記事を読む</a>
+  </article>
+
+</main>
+
+<footer>
+  AI News Daily &nbsp;·&nbsp; Generated by Claude &nbsp;·&nbsp; kakkey-genious
+</footer>
+
+</body>
+</html>
