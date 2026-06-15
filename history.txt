@@ -1,8 +1,3 @@
-2026-06-07|https://www.neowin.net/news/microsoft-unveils-mai-thinking-1-reasoning-and-mai-code-1-coding-models/
-2026-06-07|https://blog.google/products-and-platforms/products/workspace/google-vids-updates-lyria-veo/
-2026-06-07|https://thenextweb.com/news/chatgpt-1-billion-monthly-active-users
-2026-06-07|https://www.msn.com/en-us/news/other/youtube-2026-update-reshapes-creator-earnings-ai-tools-and-safety/gm-GM61F1EEC3
-2026-06-07|https://fortune.com/2026/06/01/anthropic-confidentially-files-ipo-965-billion-valuation/
 2026-06-08|https://letsdatascience.com/news/apple-unveils-gemini-powered-siri-and-ios-27-at-wwdc-2026-b757953c
 2026-06-08|https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-says-claude-now-writes-more-than-80-percent-of-its-merged-code
 2026-06-08|https://www.searchenginejournal.com/youtube-introduces-ask-studio-ai-for-channel-analytics/559399/
@@ -38,3 +33,8 @@
 2026-06-14|https://www.sciencedaily.com/releases/2026/06/260610003049.htm
 2026-06-14|https://martechseries.com/video/pictory-releases-2026-state-of-the-ai-video-creation-industry-report-analyzing-more-than-1-5-million-videos/
 2026-06-14|https://finance.yahoo.com/sectors/technology/articles/meta-layoffs-2026-8-000-114209703.html
+2026-06-15|https://finance.yahoo.com/news/anthropic-to-rent-all-ai-capacity-at-spacexs-colossus-data-center-180327774.html
+2026-06-15|https://www.technobaboy.com/2026/06/13/google-releases-gemini-3-5-live-translate-in-70-languages/
+2026-06-15|https://petapixel.com/2026/06/03/davinci-resolve-21-officially-released-with-new-photo-editing-ai-tools-and-much-more/
+2026-06-15|https://www.searchenginejournal.com/youtube-ceo-announces-ai-creation-tools-in-app-shopping-for-2026/565588/
+2026-06-15|https://www.neowin.net/news/anthropic-pulls-fable-5-and-mythos-5-after-us-export-control-order/
