@@ -1,8 +1,3 @@
-2026-06-11|https://openai.com/index/openai-on-oracle-cloud/
-2026-06-11|https://www.anthropic.com/news/claude-fable-5-mythos-5
-2026-06-11|https://help.openai.com/en/articles/20001152-what-to-know-about-the-sora-discontinuation
-2026-06-11|https://blog.youtube/news-and-events/improving-ai-labels-viewers-creators/
-2026-06-11|https://www.anthropic.com/institute/recursive-self-improvement
 2026-06-12|https://www.helpnetsecurity.com/2026/06/11/ai-scams-deepfakes-survey/
 2026-06-12|https://www.cnbc.com/2026/06/11/how-indian-filmmakers-are-using-generative-ai.html
 2026-06-12|https://devblogs.microsoft.com/microsoft365dev/work-iq-production-ready-intelligence-for-every-agent/
@@ -38,3 +33,8 @@
 2026-06-18|https://interestingengineering.com/ai-robotics/japan-unmanned-lab-robots-ai-automation-aist
 2026-06-18|https://variety.com/2026/digital/news/youtube-ai-video-labels-automatic-detection-1236758865/
 2026-06-18|https://thenextweb.com/news/chatgpt-1-billion-monthly-active-users
+2026-06-19|https://www.geeky-gadgets.com/gpt-5-6-june-2026-release/
+2026-06-19|https://www.redsharknews.com/adobe-creative-cloud-june-2026-update
+2026-06-19|https://zagdaily.com/connected/waymo-begins-autonomous-driving-phase-in-london/
+2026-06-19|https://blog.youtube/news-and-events/reimagine-new-ai-powered-remix-tool-youtube-shorts/
+2026-06-19|https://venturebeat.com/technology/perplexity-ai-unveils-hybrid-local-cloud-inference-system-at-computex-2026
