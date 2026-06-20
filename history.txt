@@ -1,13 +1,3 @@
-2026-06-12|https://www.helpnetsecurity.com/2026/06/11/ai-scams-deepfakes-survey/
-2026-06-12|https://www.cnbc.com/2026/06/11/how-indian-filmmakers-are-using-generative-ai.html
-2026-06-12|https://devblogs.microsoft.com/microsoft365dev/work-iq-production-ready-intelligence-for-every-agent/
-2026-06-12|https://thenextweb.com/news/deepseek-v4-pro-75-percent-price-cut-permanent
-2026-06-12|https://www.podcastvideos.com/articles/youtube-2026-updates-ai-live-streaming-monetization/
-2026-06-13|https://www.anthropic.com/news/fable-mythos-access
-2026-06-13|https://www.helpnetsecurity.com/2026/06/12/google-china-based-cybercrime-network-lawsuit/
-2026-06-13|https://www.geekwire.com/2026/bezos-ai-startup-prometheus-raises-12b-at-41b-valuation-and-the-ceos-explain-what-theyre-doing/
-2026-06-13|https://www.socialmediatoday.com/news/youtube-adds-new-ai-remix-feature-to-shorts/820802/
-2026-06-13|https://thetechportal.com/2026/06/13/mistral-ai-could-reach-a-e20bn-valuation-in-a-potential-e3bn-fundraise/
 2026-06-14|https://thewincentral.com/microsoft-365-copilot-anthropic-claude-fable-5/
 2026-06-14|https://elevenlabs.io/blog/introducing-dubbing-v2
 2026-06-14|https://www.sciencedaily.com/releases/2026/06/260610003049.htm
@@ -38,3 +28,8 @@
 2026-06-19|https://zagdaily.com/connected/waymo-begins-autonomous-driving-phase-in-london/
 2026-06-19|https://blog.youtube/news-and-events/reimagine-new-ai-powered-remix-tool-youtube-shorts/
 2026-06-19|https://venturebeat.com/technology/perplexity-ai-unveils-hybrid-local-cloud-inference-system-at-computex-2026
+2026-06-20|https://theaiinsider.tech/2026/06/19/openai-hires-transformer-co-author-noam-shazeer-and-former-white-house-ai-official-dean-ball-ahead-of-ipo/
+2026-06-20|https://www.androidheadlines.com/2026/06/google-vids-free-ai-avatars-update.html
+2026-06-20|https://www.businesswire.com/news/home/20260616084721/en/Kawasaki-Robotics-Unveils-Dexterous-Physical-AI-Robot-Platform-Advanced-Automation-Technologies-at-Automate-2026
+2026-06-20|https://m.gsmarena.com/google_will_let_creators_generate_videos_for_youtube_shorts_using_the_veo_3_ai_model-news-68323.php
+2026-06-20|https://venturebeat.com/technology/anthropic-ships-major-claude-design-overhaul-with-design-system-imports-code-round-trips-and-a-fix-for-its-token-burning-problem
