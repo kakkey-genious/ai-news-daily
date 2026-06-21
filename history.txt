@@ -33,3 +33,8 @@
 2026-06-20|https://www.businesswire.com/news/home/20260616084721/en/Kawasaki-Robotics-Unveils-Dexterous-Physical-AI-Robot-Platform-Advanced-Automation-Technologies-at-Automate-2026
 2026-06-20|https://m.gsmarena.com/google_will_let_creators_generate_videos_for_youtube_shorts_using_the_veo_3_ai_model-news-68323.php
 2026-06-20|https://venturebeat.com/technology/anthropic-ships-major-claude-design-overhaul-with-design-system-imports-code-round-trips-and-a-fix-for-its-token-burning-problem
+2026-06-21|https://www.nikkei.com/article/DGXZQOUC197L40Z10C26A6000000/
+2026-06-21|https://www.nbcnews.com/tech/tech-news/youtube-announces-expanded-suite-tools-creators-latest-ai-push-rcna231801
+2026-06-21|https://www.techtimes.com/articles/318635/20260618/grok-imagine-video-15-goes-live-xai-tops-ai-video-leaderboard-86-percent-below-sora.htm
+2026-06-21|https://seekingalpha.com/news/4603968-qualcomm-in-discussions-to-acquire-ai-chip-startup-tenstorrent
+2026-06-21|https://www.sciencedaily.com/releases/2026/06/260618041501.htm
