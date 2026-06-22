@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>今日のAIニュース — 2026-06-22</title>
+  <style>
+    :root {
+      --bg: #f4f6f9;
+      --card-bg: #ffffff;
+      --text: #1a1a2e;
+      --subtext: #6b7280;
+      --border: #e5e7eb;
+      --header-bg: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f172a;
+        --card-bg: #1e293b;
+        --text: #e2e8f0;
+        --subtext: #94a3b8;
+        --border: #334155;
+      }
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--header-bg);
+      color: #fff;
+      padding: 2.5rem 1.5rem 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1rem;
+      opacity: 0.75;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin: 1.5rem auto 0;
+      padding: 0.45rem 1.1rem;
+      background: rgba(255,255,255,0.15);
+      border: 1px solid rgba(255,255,255,0.3);
+      border-radius: 20px;
+      color: #fff;
+      text-decoration: none;
+      font-size: 0.85rem;
+      transition: background 0.2s;
+    }
+
+    .back-link:hover { background: rgba(255,255,255,0.25); }
+
+    main {
+      max-width: 800px;
+      margin: 2.5rem auto;
+      padding: 0 1.25rem;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1.5rem 1.75rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+      transition: box-shadow 0.2s;
+    }
+
+    .card:hover { box-shadow: 0 4px 18px rgba(0,0,0,0.1); }
+
+    .card-header {
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+      margin-bottom: 0.9rem;
+    }
+
+    .card-number {
+      flex-shrink: 0;
+      width: 2rem;
+      height: 2rem;
+      background: var(--header-bg);
+      color: #fff;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.85rem;
+      font-weight: 700;
+      margin-top: 0.1rem;
+    }
+
+    .card-title {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--text);
+      line-height: 1.4;
+    }
+
+    .card-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      align-items: center;
+      margin-bottom: 0.75rem;
+      font-size: 0.8rem;
+      color: var(--subtext);
+    }
+
+    .tag {
+      display: inline-block;
+      padding: 0.2rem 0.7rem;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: #fff;
+    }
+
+    .tag-blue   { background: #3b82f6; }
+    .tag-purple { background: #8b5cf6; }
+    .tag-orange { background: #f59e0b; }
+    .tag-red    { background: #ef4444; }
+
+    .card-summary {
+      font-size: 0.92rem;
+      color: var(--text);
+      margin-bottom: 0.85rem;
+      opacity: 0.9;
+    }
+
+    .card-reason {
+      font-size: 0.8rem;
+      color: var(--subtext);
+      border-left: 3px solid var(--border);
+      padding-left: 0.75rem;
+      margin-bottom: 0.85rem;
+      font-style: italic;
+    }
+
+    .card-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      padding: 0.4rem 1rem;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      color: #3b82f6;
+      text-decoration: none;
+      font-size: 0.82rem;
+      font-weight: 600;
+      transition: background 0.15s;
+    }
+
+    .card-link:hover { background: var(--border); }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem 3rem;
+      color: var(--subtext);
+      font-size: 0.82rem;
+    }
+
+    footer a { color: var(--subtext); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>📰 今日のAIニュース</h1>
+  <p>2026年6月22日（月）</p>
+  <a class="back-link" href="index.html">← 一覧に戻る</a>
+</header>
+
+<main>
+
+  <!-- Article 1 -->
+  <article class="card">
+    <div class="card-header">
+      <div class="card-number">1</div>
+      <div class="card-title">xAI の Grok 4.3 が Amazon Bedrock で正式提供開始 — 100万トークンと低価格で企業向けAI選択肢が拡大</div>
+    </div>
+    <div class="card-meta">
+      <span class="tag tag-blue">実務活用</span>
+      <span>AWS What's New</span>
+      <span>·</span>
+      <span>2026-06-15</span>
+    </div>
+    <p class="card-summary">
+      xAIのGrok 4.3がAmazon Bedrockで正式に利用可能になった。100万トークンのコンテキストウィンドウ、設定可能な推論レベル、ネイティブ動画入力、AIエージェント向けのツールコールをサポートし、入力$1.25/Mの競争力ある価格設定を実現。Anthropic、OpenAI、Metaのモデルと並ぶ選択肢として企業のAI導入がさらに加速しそうだ。
+    </p>
+    <p class="card-reason">選定理由: エンタープライズAI活用において重要な選択肢が増えた。コスト・性能・用途別のモデル比較検討に役立つ実務情報。</p>
+    <a class="card-link" href="https://aws.amazon.com/about-aws/whats-new/2026/06/grok-amazon-bedrock/" target="_blank" rel="noopener">元記事を読む →</a>
+  </article>
+
+  <!-- Article 2 -->
+  <article class="card">
+    <div class="card-header">
+      <div class="card-number">2</div>
+      <div class="card-title">YouTube Shorts リミックスに Gemini Omni Flash が統合 — テキスト指示で動画を改変・再スタイル化が無料で可能に</div>
+    </div>
+    <div class="card-meta">
+      <span class="tag tag-purple">動画編集</span>
+      <span>Let's Data Science</span>
+      <span>·</span>
+      <span>2026-06-21</span>
+    </div>
+    <p class="card-summary">
+      GoogleのGemini Omni FlashがYouTube Shorts RemixとYouTube Createアプリに無料で統合された。テキストプロンプトや参照画像を使って既存のショートを改変できるようになり、「90年代風スタイルに変換」「特定の人物を追加」などが数クリックで実現。クリップは10秒上限で、改変動画にはSynthIDによるデジタルウォーターマークが自動付与される。
+    </p>
+    <p class="card-reason">選定理由: 動画編集・映像制作クリエイターに直結するAIツールの重要アップデート。使いこなすことで制作効率が大幅向上する可能性がある。</p>
+    <a class="card-link" href="https://letsdatascience.com/news/youtube-integrates-gemini-omni-into-shorts-remix-214106e3" target="_blank" rel="noopener">元記事を読む →</a>
+  </article>
+
+  <!-- Article 3 -->
+  <article class="card">
+    <div class="card-header">
+      <div class="card-number">3</div>
+      <div class="card-title">MrBeast の AI 版に直接質問できる？ YouTube がクリエイターの「AI チャットボット分身」をテスト開始</div>
+    </div>
+    <div class="card-meta">
+      <span class="tag tag-orange">意外な活用</span>
+      <span>Social Media Today</span>
+      <span>·</span>
+      <span>2026-06-</span>
+    </div>
+    <p class="card-summary">
+      YouTubeがGoogleの「Portraits」機能を使い、人気クリエイターのAIチャットボット版を試験展開。MrBeastなど著名YouTuberと同じ口調で回答するAIと会話でき、チャンネルの成長方法などを教えてもらえる。現在は18歳以上の米国ユーザー限定で一部チャンネルのみ参加。リアルなクリエイターが登場しないまま視聴者がいつでも「会話」できる新しいファン体験が生まれつつある。
+    </p>
+    <p class="card-reason">選定理由: クリエイターの「AI分身」という概念は、ファンとの関係性を根本から変える可能性を秘めた意外性の高い活用例。今後の展開が注目される。</p>
+    <a class="card-link" href="https://www.socialmediatoday.com/news/youtube-tests-ai-chatbots-based-on-popular-creators/808093/" target="_blank" rel="noopener">元記事を読む →</a>
+  </article>
+
+  <!-- Article 4 -->
+  <article class="card">
+    <div class="card-header">
+      <div class="card-number">4</div>
+      <div class="card-title">トランプ政権、AIイノベーション・安全保障促進の大統領令に署名 — 米国 AI 競争力強化へ規制・セキュリティ両面を整備</div>
+    </div>
+    <div class="card-meta">
+      <span class="tag tag-blue">実務活用</span>
+      <span>White House</span>
+      <span>·</span>
+      <span>2026-06-22</span>
+    </div>
+    <p class="card-summary">
+      トランプ大統領がAIイノベーションと国家安全保障を同時に推進する大統領令に署名。米国のAI競争力強化を最優先とし、イノベーションを阻害しない形での規制最適化と、重要インフラ・防衛領域における安全対策の強化を両立する包括的な政策枠組みを提示した。この政策はAIを活用する企業の事業環境にも大きく影響する可能性がある。
+    </p>
+    <p class="card-reason">選定理由: 米国政府のAI政策は企業のAI活用方針を左右する重要な情報。日本企業も動向を注視する必要がある。</p>
+    <a class="card-link" href="https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/" target="_blank" rel="noopener">元記事を読む →</a>
+  </article>
+
+  <!-- Article 5 -->
+  <article class="card">
+    <div class="card-header">
+      <div class="card-number">5</div>
+      <div class="card-title">YouTube AI Studio が 3,000 万クリエイター全員に全面展開 — タイトル・サムネイル最適化から収益化戦略まで AI が支援</div>
+    </div>
+    <div class="card-meta">
+      <span class="tag tag-red">YouTube</span>
+      <span>TechBuzz AI</span>
+      <span>·</span>
+      <span>2026-06-</span>
+    </div>
+    <p class="card-summary">
+      YouTubeがAI搭載のStudio機能をパートナープログラム参加の3,000万人のクリエイター全員に全面展開した。動画のタイトル・説明文・サムネイルの最適化提案、アナリティクスのAI解析、収益化戦略のサポートなどをAIが一貫して支援する。これまで大規模チャンネルが人手とノウハウをかけて行ってきた最適化作業が、中小クリエイターでも手軽に実施できる環境が整いつつある。
+    </p>
+    <p class="card-reason">選定理由: YouTubeクリエイターが今すぐ活用できる具体的なAI機能の最新情報。チャンネル運営の効率化・収益最大化に直結する。</p>
+    <a class="card-link" href="https://www.techbuzz.ai/articles/youtube-rolls-out-ai-powered-studio-updates-across-30m-creators" target="_blank" rel="noopener">元記事を読む →</a>
+  </article>
+
+</main>
+
+<footer>
+  <p>AI News Daily &middot; Generated by Claude &middot; <a href="https://github.com/kakkey-genious" target="_blank" rel="noopener">kakkey-genious</a></p>
+</footer>
+
+</body>
+</html>
