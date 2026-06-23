@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>今日のAIニュース — 2026-06-23</title>
+  <style>
+    :root {
+      --bg: #f4f6f9;
+      --card-bg: #ffffff;
+      --text: #1a1a2e;
+      --subtext: #6b7280;
+      --border: #e5e7eb;
+      --header-bg: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f172a;
+        --card-bg: #1e293b;
+        --text: #e2e8f0;
+        --subtext: #94a3b8;
+        --border: #334155;
+      }
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--header-bg);
+      color: #fff;
+      padding: 2.5rem 1.5rem 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1rem;
+      opacity: 0.75;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin: 1.5rem auto 0;
+      padding: 0.45rem 1.1rem;
+      background: rgba(255,255,255,0.15);
+      border: 1px solid rgba(255,255,255,0.3);
+      border-radius: 20px;
+      color: #fff;
+      text-decoration: none;
+      font-size: 0.85rem;
+      transition: background 0.2s;
+    }
+
+    .back-link:hover { background: rgba(255,255,255,0.25); }
+
+    main {
+      max-width: 800px;
+      margin: 2.5rem auto;
+      padding: 0 1.25rem;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1.5rem 1.75rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+      transition: box-shadow 0.2s;
+    }
+
+    .card:hover { box-shadow: 0 4px 18px rgba(0,0,0,0.1); }
+
+    .card-header {
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+      margin-bottom: 0.9rem;
+    }
+
+    .card-number {
+      flex-shrink: 0;
+      width: 2rem;
+      height: 2rem;
+      background: var(--header-bg);
+      color: #fff;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.85rem;
+      font-weight: 700;
+      margin-top: 0.1rem;
+    }
+
+    .card-title {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--text);
+      line-height: 1.4;
+    }
+
+    .card-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      align-items: center;
+      margin-bottom: 0.75rem;
+      font-size: 0.8rem;
+      color: var(--subtext);
+    }
+
+    .tag {
+      display: inline-block;
+      padding: 0.2rem 0.7rem;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: #fff;
+    }
+
+    .tag-blue   { background: #3b82f6; }
+    .tag-purple { background: #8b5cf6; }
+    .tag-orange { background: #f59e0b; }
+    .tag-red    { background: #ef4444; }
+
+    .card-summary {
+      font-size: 0.92rem;
+      color: var(--text);
+      margin-bottom: 0.85rem;
+      opacity: 0.9;
+    }
+
+    .card-reason {
+      font-size: 0.8rem;
+      color: var(--subtext);
+      border-left: 3px solid var(--border);
+      padding-left: 0.75rem;
+      margin-bottom: 0.85rem;
+      font-style: italic;
+    }
+
+    .card-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      padding: 0.4rem 1rem;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      color: #3b82f6;
+      text-decoration: none;
+      font-size: 0.82rem;
+      font-weight: 600;
+      transition: background 0.15s;
+    }
+
+    .card-link:hover { background: var(--border); }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem 3rem;
+      color: var(--subtext);
+      font-size: 0.82rem;
+    }
+
+    footer a { color: var(--subtext); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>📰 今日のAIニュース</h1>
+  <p>2026年6月23日（火）</p>
+  <a class="back-link" href="index.html">← 一覧に戻る</a>
+</header>
+
+<main>
+
+  <!-- Article 1 -->
+  <article class="card">
+    <div class="card-header">
+      <div class="card-number">1</div>
+      <div class="card-title">OpenAI、サイバーセキュリティ特化AI「GPT-5.5-Cyber」を強化——「Patch the Planet」で重要OSSの脆弱性を自動修正へ</div>
+    </div>
+    <div class="card-meta">
+      <span class="tag tag-blue">実務活用</span>
+      <span>OpenAI</span>
+      <span>·</span>
+      <span>2026-06-22</span>
+    </div>
+    <p class="card-summary">
+      OpenAIがDaybreakプラットフォームの大幅拡充を発表。セキュリティ特化モデル「GPT-5.5-Cyber」の強化版はCyberGymで85.6%を達成し、コードベース全体をスキャンして脆弱性を検出・修正するCodex Securityプラグインも公開。Trail of BitsやHackerOneと連携し、cURL・Python・Goなど主要OSSの自動パッチ適用を支援する「Patch the Planet」イニシアチブも始動した。企業のセキュリティ担当者が特に注目すべき内容だ。
+    </p>
+    <p class="card-reason">選定理由: AIによるサイバーセキュリティ自動化はエンタープライズ導入を加速させる重要トレンド。OSSのサプライチェーンリスク低減にも直結する実践的な動き。</p>
+    <a class="card-link" href="https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber/" target="_blank" rel="noopener">元記事を読む →</a>
+  </article>
+
+  <!-- Article 2 -->
+  <article class="card">
+    <div class="card-header">
+      <div class="card-number">2</div>
+      <div class="card-title">AnthropicがClaudeユーザーにパスポート等の本人確認書類の提出を求める可能性——7月8日より新プライバシーポリシー適用</div>
+    </div>
+    <div class="card-meta">
+      <span class="tag tag-orange">意外な活用</span>
+      <span>TechCrunch</span>
+      <span>·</span>
+      <span>2026-06-22</span>
+    </div>
+    <p class="card-summary">
+      Anthropicが改訂したプライバシーポリシーで、「一定の状況下」においてClaude利用者に政府発行のパスポートや運転免許証のスキャン画像を提出させる可能性があると発表。7月8日から適用のこの方針は、AI企業として初めて本人確認を利用規約に盛り込む先例となる。年齢確認・本人確認の目的とされているが、AI利用に対するアイデンティティ管理という新たな潮流を示している。
+    </p>
+    <p class="card-reason">選定理由: AI利用者のプライバシーとアイデンティティ管理に関する前例のない方針変更。AIサービスの利用条件が今後どう変わるかを考える上で重要な動き。</p>
+    <a class="card-link" href="https://techcrunch.com/2026/06/22/anthropic-says-claude-may-want-to-see-your-id/" target="_blank" rel="noopener">元記事を読む →</a>
+  </article>
+
+  <!-- Article 3 -->
+  <article class="card">
+    <div class="card-header">
+      <div class="card-number">3</div>
+      <div class="card-title">AlibabAの動画生成AI「HappyHorse 1.1」が世界ランキング2位に浮上——SoraとSeedanceの撤退でAI動画市場が大きく再編</div>
+    </div>
+    <div class="card-meta">
+      <span class="tag tag-purple">動画編集</span>
+      <span>VentureBeat</span>
+      <span>·</span>
+      <span>2026-06-22</span>
+    </div>
+    <p class="card-summary">
+      Alibaba Cloudが150億パラメータの動画生成AI「HappyHorse 1.1」の最新版をリリース。Alibaba Cloud Model StudioでAPIが公開され、出力音声付き動画を一括生成できる性能が評価されて世界2位を獲得。OpenAIのSoraが採算問題（1日$1,500万の計算コスト）で廃止、ByteDanceのSeedance 2.0が著作権問題で国際展開を停止したことで生じた市場の空白に食い込んだ。ローンチ記念の40%割引キャンペーンも実施中。
+    </p>
+    <p class="card-reason">選定理由: AI動画生成ツールの競争地図が大きく塗り替えられた重要な転換点。映像クリエイターが使うべきツールの選定にダイレクトに影響する情報。</p>
+    <a class="card-link" href="https://venturebeat.com/technology/alibabas-ai-video-model-rises-to-no-2-in-global-rankings-as-openais-sora-and-bytedances-seedance-fall-away" target="_blank" rel="noopener">元記事を読む →</a>
+  </article>
+
+  <!-- Article 4 -->
+  <article class="card">
+    <div class="card-header">
+      <div class="card-number">4</div>
+      <div class="card-title">日本発Sakana AIが複数LLMを束ねる「Fugu」を正式リリース——輸出規制をかわしてフロンティアモデル水準を低コストで実現</div>
+    </div>
+    <div class="card-meta">
+      <span class="tag tag-blue">実務活用</span>
+      <span>VentureBeat</span>
+      <span>·</span>
+      <span>2026-06-22</span>
+    </div>
+    <p class="card-summary">
+      東京拠点のSakana AIが、複数のLLMを自律的に選択・調整・統合するAIオーケストレーションシステム「Sakana Fugu」を正式リリース。OpenAI互換の単一エンドポイントとして動作し、Fugu Ultraはコーディング・科学推論の主要ベンチマークでClaude Fable 5と同等の性能を達成。輸出規制で利用が制限されたAnthropicの最上位モデル不在を補う代替として注目される。月額$20〜$200のサブスクリプションで利用可能。
+    </p>
+    <p class="card-reason">選定理由: 規制環境下での実用的なフロンティアAIの代替戦略として画期的。日本発のAI技術が世界水準に達した点も、国内AI活用を考える企業にとって重要な参考事例。</p>
+    <a class="card-link" href="https://venturebeat.com/orchestration/no-claude-fable-5-no-problem-sakana-achieves-frontier-performance-with-new-fugu-multi-model-auto-synthesis-system" target="_blank" rel="noopener">元記事を読む →</a>
+  </article>
+
+  <!-- Article 5 -->
+  <article class="card">
+    <div class="card-header">
+      <div class="card-number">5</div>
+      <div class="card-title">AIエージェントが自分自身のルールを書き換えて性能を最大60%向上——「Self-Harness」が動画・コンテンツ制作の自動化を革新する可能性</div>
+    </div>
+    <div class="card-meta">
+      <span class="tag tag-red">YouTube</span>
+      <span>VentureBeat</span>
+      <span>·</span>
+      <span>2026-06-22</span>
+    </div>
+    <p class="card-summary">
+      上海人工知能研究所が、AIエージェントが自身の実行ログを分析して動作ルールを自律的に改善する「Self-Harness」フレームワークを発表。「欠弱点マイニング→改善提案→検証」の3ループで、Qwen3.5では+60.1%のパフォーマンス向上を達成。YouTubeクリエイターが使うAI自動化ツール（スクリプト生成、SEO最適化、サムネイル提案など）がこの技術で継続的に自己改善できるようになれば、コンテンツ制作ワークフローの在り方が根本から変わる可能性を秘める。
+    </p>
+    <p class="card-reason">選定理由: AIエージェントの自己改善は、YouTubeや動画コンテンツ制作に活用されるAIツールの次世代アーキテクチャを示す技術動向。今後の制作自動化ツールの進化方向を理解する上で重要。</p>
+    <a class="card-link" href="https://venturebeat.com/orchestration/researchers-introduce-self-harness-a-framework-that-lets-ai-agents-rewrite-their-own-rules-boosting-performance-up-to-60" target="_blank" rel="noopener">元記事を読む →</a>
+  </article>
+
+</main>
+
+<footer>
+  <p>AI News Daily &middot; Generated by Claude &middot; <a href="https://github.com/kakkey-genious" target="_blank" rel="noopener">kakkey-genious</a></p>
+</footer>
+
+</body>
+</html>
