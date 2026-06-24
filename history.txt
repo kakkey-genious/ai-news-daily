@@ -1,8 +1,3 @@
-2026-06-16|https://www.techtimes.com/articles/318436/20260615/openai-launches-partner-network-150m-bet-that-implementation-beats-model-power.htm
-2026-06-16|https://www.artificialintelligence-news.com/news/jpmorgan-chase-treats-ai-spending-as-core-infrastructure/
-2026-06-16|https://nofilmschool.com/adobe-updates-nab-2026
-2026-06-16|https://www.msn.com/en-us/news/other/youtube-2026-update-reshapes-creator-earnings-ai-tools-and-safety/gm-GM61F1EEC3
-2026-06-16|https://techcrunch.com/2026/03/10/meta-acquired-moltbook-the-ai-agent-social-network-that-went-viral-because-of-fake-posts/
 2026-06-17|https://thetechportal.com/2026/06/17/google-rolls-out-android-17-with-advanced-gemini-ai-features-arriving-in-phases/
 2026-06-17|https://9to5mac.com/2026/06/15/adobe-rolls-out-major-creative-cloud-updates-for-lightroom-premiere-photoshop-more/
 2026-06-17|https://www.freshplaza.com/north-america/article/9842754/japanese-agri-tech-startup-puts-cherry-tomato-harvesting-robot-into-routine-production-use/
@@ -38,3 +33,8 @@
 2026-06-23|https://venturebeat.com/technology/alibabas-ai-video-model-rises-to-no-2-in-global-rankings-as-openais-sora-and-bytedances-seedance-fall-away
 2026-06-23|https://venturebeat.com/orchestration/no-claude-fable-5-no-problem-sakana-achieves-frontier-performance-with-new-fugu-multi-model-auto-synthesis-system
 2026-06-23|https://venturebeat.com/orchestration/researchers-introduce-self-harness-a-framework-that-lets-ai-agents-rewrite-their-own-rules-boosting-performance-up-to-60
+2026-06-24|https://www.bloomberg.com/news/articles/2026-06-23/anthropic-wants-claude-to-be-your-new-slack-coworker
+2026-06-24|https://techcrunch.com/2026/06/22/google-deepmind-bets-75m-on-ais-future-in-hollywood-with-a24-deal/
+2026-06-24|https://www.techtimes.com/articles/318925/20260623/claude-outage-tops-8000-reports-agentic-pipeline-failures-mount-before-anthropic-ipo.htm
+2026-06-24|https://www.socialmediatoday.com/news/youtube-expands-access-to-gen-ai-features-adds-communities-features/806508/
+2026-06-24|https://www.anthropic.com/news/higher-limits-spacex
