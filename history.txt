@@ -1,13 +1,3 @@
-2026-06-17|https://thetechportal.com/2026/06/17/google-rolls-out-android-17-with-advanced-gemini-ai-features-arriving-in-phases/
-2026-06-17|https://9to5mac.com/2026/06/15/adobe-rolls-out-major-creative-cloud-updates-for-lightroom-premiere-photoshop-more/
-2026-06-17|https://www.freshplaza.com/north-america/article/9842754/japanese-agri-tech-startup-puts-cherry-tomato-harvesting-robot-into-routine-production-use/
-2026-06-17|https://www.digitalapplied.com/blog/youtube-shorts-ai-creation-veo-3-fast-motion-brand-links
-2026-06-17|https://www.techtimes.com/articles/318178/20260610/nvidia-gtc-paris-keynote-headlines-vivatech-june-17-20ai-factories-sovereign-ai-robotics-europe.htm
-2026-06-18|https://www.techtimes.com/articles/318492/20260616/gpt-56-openai-chief-scientist-calls-it-meaningful-leap-june-launch-nears.htm
-2026-06-18|https://androidguys.com/news/googles-june-2026-pixel-feature-drop-brings-ai-video-creation-smarter-multitasking-and-new-pixel-watch-safety-tools/
-2026-06-18|https://interestingengineering.com/ai-robotics/japan-unmanned-lab-robots-ai-automation-aist
-2026-06-18|https://variety.com/2026/digital/news/youtube-ai-video-labels-automatic-detection-1236758865/
-2026-06-18|https://thenextweb.com/news/chatgpt-1-billion-monthly-active-users
 2026-06-19|https://www.geeky-gadgets.com/gpt-5-6-june-2026-release/
 2026-06-19|https://www.redsharknews.com/adobe-creative-cloud-june-2026-update
 2026-06-19|https://zagdaily.com/connected/waymo-begins-autonomous-driving-phase-in-london/
@@ -38,3 +28,8 @@
 2026-06-24|https://www.techtimes.com/articles/318925/20260623/claude-outage-tops-8000-reports-agentic-pipeline-failures-mount-before-anthropic-ipo.htm
 2026-06-24|https://www.socialmediatoday.com/news/youtube-expands-access-to-gen-ai-features-adds-communities-features/806508/
 2026-06-24|https://www.anthropic.com/news/higher-limits-spacex
+2026-06-25|https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/
+2026-06-25|https://www.energy.gov/nnsa/articles/nnsa-announces-aires-tide-national-security-innovation-developed-using-ai-and
+2026-06-25|https://news.adobe.com/news/2026/06/adobe-unveils-major-expansion
+2026-06-25|https://blog.youtube/news-and-events/improving-ai-labels-viewers-creators/
+2026-06-25|https://techcrunch.com/2026/06/16/chatgpts-market-share-slips-below-50-for-first-time/

@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AIニュース 2026-06-25 | AI News Daily</title>
+  <style>
+    :root {
+      --bg: #f4f6f9;
+      --card-bg: #ffffff;
+      --text: #1a1a2e;
+      --subtext: #6b7280;
+      --border: #e5e7eb;
+      --header-bg: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f172a;
+        --card-bg: #1e293b;
+        --text: #e2e8f0;
+        --subtext: #94a3b8;
+        --border: #334155;
+      }
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Hiragino Sans', 'Noto Sans JP', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    header {
+      background: var(--header-bg);
+      color: #fff;
+      padding: 2.5rem 1.5rem 2rem;
+      text-align: center;
+    }
+
+    header .back-link {
+      display: inline-block;
+      color: rgba(255,255,255,0.7);
+      text-decoration: none;
+      font-size: 0.875rem;
+      margin-bottom: 1rem;
+      transition: color 0.2s;
+    }
+    header .back-link:hover { color: #fff; }
+
+    header h1 {
+      font-size: clamp(1.5rem, 4vw, 2.2rem);
+      font-weight: 700;
+      letter-spacing: 0.02em;
+    }
+
+    header .date-label {
+      margin-top: 0.5rem;
+      font-size: 1rem;
+      color: rgba(255,255,255,0.75);
+    }
+
+    main {
+      max-width: 800px;
+      margin: 2.5rem auto;
+      padding: 0 1.25rem;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      transition: box-shadow 0.2s;
+    }
+    .card:hover {
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    }
+
+    .card-header {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.75rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .card-number {
+      flex-shrink: 0;
+      width: 2rem;
+      height: 2rem;
+      background: var(--header-bg);
+      color: #fff;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.875rem;
+      font-weight: 700;
+    }
+
+    .card-title {
+      font-size: 1.05rem;
+      font-weight: 700;
+      line-height: 1.5;
+      color: var(--text);
+    }
+
+    .card-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      align-items: center;
+      margin-bottom: 0.75rem;
+      font-size: 0.8rem;
+      color: var(--subtext);
+    }
+
+    .card-meta .source { font-weight: 600; }
+    .card-meta .pub-date::before { content: "·"; margin-right: 0.3rem; }
+
+    .tag {
+      display: inline-block;
+      padding: 0.2rem 0.6rem;
+      border-radius: 999px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: #fff;
+    }
+    .tag-blue   { background: #3b82f6; }
+    .tag-purple { background: #8b5cf6; }
+    .tag-orange { background: #f59e0b; }
+    .tag-red    { background: #ef4444; }
+
+    .card-summary {
+      font-size: 0.92rem;
+      color: var(--text);
+      margin-bottom: 0.75rem;
+      line-height: 1.75;
+    }
+
+    .card-reason {
+      font-size: 0.8rem;
+      color: var(--subtext);
+      background: var(--bg);
+      border-left: 3px solid var(--border);
+      padding: 0.4rem 0.75rem;
+      border-radius: 0 6px 6px 0;
+      margin-bottom: 0.75rem;
+    }
+    .card-reason strong { color: var(--subtext); }
+
+    .card-link a {
+      color: #3b82f6;
+      font-size: 0.85rem;
+      text-decoration: none;
+      word-break: break-all;
+    }
+    .card-link a:hover { text-decoration: underline; }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.8rem;
+      color: var(--subtext);
+      border-top: 1px solid var(--border);
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <a href="index.html" class="back-link">← 一覧に戻る</a>
+  <h1>📰 今日のAIニュース</h1>
+  <p class="date-label">2026年6月25日（木）</p>
+</header>
+
+<main>
+
+  <!-- Card 1 -->
+  <article class="card">
+    <div class="card-header">
+      <div class="card-number">1</div>
+      <div class="card-title">Gemini 3.5 Flash が「Computer Use」を標準搭載 ― AIエージェントが画面を見てPCやアプリを自律操作</div>
+    </div>
+    <div class="card-meta">
+      <span class="source">Google Blog / ITmedia AI+</span>
+      <span class="pub-date">2026年6月24日</span>
+      <span class="tag tag-blue">実務活用</span>
+    </div>
+    <p class="card-summary">
+      GoogleはAIモデル「Gemini 3.5 Flash」に、コンピュータ画面を認識してマウスやキーボード操作を自動実行する「Computer Use」機能を標準ツールとして組み込んだと発表した。開発者はこの機能を使い、Webブラウザ・モバイル・デスクトップ環境を横断して動作するAIエージェントを構築できる。企業向けにはプロンプトインジェクション対策や操作確認機能も提供され、長時間の複雑業務自動化や継続的なソフトウェアテストへの活用が期待される。
+    </p>
+    <div class="card-reason"><strong>選定理由：</strong>UIを直接操作するAIエージェントはRPA代替として業務自動化の最前線。主要モデルへの標準統合は実務導入の敷居を大幅に下げる。</div>
+    <div class="card-link">
+      <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/" target="_blank" rel="noopener">
+        https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/
+      </a>
+    </div>
+  </article>
+
+  <!-- Card 2 -->
+  <article class="card">
+    <div class="card-header">
+      <div class="card-number">2</div>
+      <div class="card-title">AIが5ヶ月で核安全保障用飛翔体を設計 ― 米エネルギー省「Aires Tide」を国立モールで公開</div>
+    </div>
+    <div class="card-meta">
+      <span class="source">U.S. Department of Energy</span>
+      <span class="pub-date">2026年6月25日</span>
+      <span class="tag tag-orange">意外な活用</span>
+    </div>
+    <p class="card-summary">
+      米エネルギー省の国家核安全保障局（NNSA）が、AIと超高性能スーパーコンピューターを活用して通常2年かかる飛翔体設計をわずか5ヶ月で完了した「Aires Tide」プロジェクトを発表した。全長11フィートの機体は6日間で3Dプリントされ、5月にユタ州の試験場で高度3万2000フィートからの飛行試験に成功。同機体は6月25日から米首都ワシントンDCの国立モールで一般公開された。
+    </p>
+    <div class="card-reason"><strong>選定理由：</strong>AIが国防・核安全保障という最先端の技術開発現場に活用された意外な事例。開発期間の劇的短縮はあらゆる製造業への応用を示唆する。</div>
+    <div class="card-link">
+      <a href="https://www.energy.gov/nnsa/articles/nnsa-announces-aires-tide-national-security-innovation-developed-using-ai-and" target="_blank" rel="noopener">
+        https://www.energy.gov/nnsa/articles/nnsa-announces-aires-tide-national-security-innovation-developed-using-ai-and
+      </a>
+    </div>
+  </article>
+
+  <!-- Card 3 -->
+  <article class="card">
+    <div class="card-header">
+      <div class="card-number">3</div>
+      <div class="card-title">Adobe、「Creative Agent」をPremiere・Photoshop・Illustratorなどに大規模展開 ― 映像制作ワークフローの自動化が本格化</div>
+    </div>
+    <div class="card-meta">
+      <span class="source">Adobe News</span>
+      <span class="pub-date">2026年6月（最新）</span>
+      <span class="tag tag-purple">動画編集</span>
+    </div>
+    <p class="card-summary">
+      AdobeはFireflyを基盤としたAI「Creative Agent」をPremiere、Photoshop、Illustrator、InDesign、Frame.ioなどCreative Cloud主要アプリ全体に展開すると発表した。クリエイターが望む成果を自然言語で指示するだけで、AIが複数ステップのワークフローを自動実行する。動画編集者は反復作業をAIに任せて創造的な判断に集中でき、コラボレーターを招いてFirefly内でリアルタイムにフィードバックを共有する機能も追加された。
+    </p>
+    <div class="card-reason"><strong>選定理由：</strong>動画制作ツール最大手AdobeのAI統合が全製品に広がり、映像・写真クリエイターの制作フロー全体に直接影響する重要アップデート。</div>
+    <div class="card-link">
+      <a href="https://news.adobe.com/news/2026/06/adobe-unveils-major-expansion" target="_blank" rel="noopener">
+        https://news.adobe.com/news/2026/06/adobe-unveils-major-expansion
+      </a>
+    </div>
+  </article>
+
+  <!-- Card 4 -->
+  <article class="card">
+    <div class="card-header">
+      <div class="card-number">4</div>
+      <div class="card-title">YouTubeがAI生成コンテンツの自動ラベル付けを拡大 ― 申告なくても検出でラベル表示、クリエイターは要注意</div>
+    </div>
+    <div class="card-meta">
+      <span class="source">YouTube Blog</span>
+      <span class="pub-date">2026年6月（最新）</span>
+      <span class="tag tag-red">YouTube</span>
+    </div>
+    <p class="card-summary">
+      YouTubeは2026年5月から、AI生成コンテンツを検出する内部シグナルを強化し、クリエイターが申告していなくてもシステムがリアルなAI映像使用を検出した場合は自動的にラベルを表示する運用を開始した。18歳以上の全クリエイターに「本人の肖像検出ツール」も拡大し、AI生成の自分の顔が無断使用されていないか管理できるようになった。AI利用の透明性確保が義務化の方向へ進んでいる。
+    </p>
+    <div class="card-reason"><strong>選定理由：</strong>YouTubeのAIポリシー変更はクリエイターの制作・投稿戦略に直接影響。意図せずラベルが付く可能性があり、YouTuberは対応が必要。</div>
+    <div class="card-link">
+      <a href="https://blog.youtube/news-and-events/improving-ai-labels-viewers-creators/" target="_blank" rel="noopener">
+        https://blog.youtube/news-and-events/improving-ai-labels-viewers-creators/
+      </a>
+    </div>
+  </article>
+
+  <!-- Card 5 -->
+  <article class="card">
+    <div class="card-header">
+      <div class="card-number">5</div>
+      <div class="card-title">ChatGPTのシェアが史上初めて50%割れ ― GeminiとClaudeが急拡大、AI市場の勢力図が激変</div>
+    </div>
+    <div class="card-meta">
+      <span class="source">TechCrunch</span>
+      <span class="pub-date">2026年6月16日</span>
+      <span class="tag tag-blue">実務活用</span>
+    </div>
+    <p class="card-summary">
+      Sensor Towerの調査によると、AIアシスタント市場におけるChatGPTのシェアが46.4%と初めて50%を下回った。GeminiとClaudeへのユーザー移行が進み、特にAnthropicのClaudeは生産性用途での評判が高まっている。ChatGPTは依然11億ユーザーを超える最大手だが、企業のAIツール選定において複数の選択肢が競合する時代が到来。ビジネスでのAI導入・切り替え判断が重要になっている。
+    </p>
+    <div class="card-reason"><strong>選定理由：</strong>AI市場のシェア変動は企業のツール選定戦略に直結。Claude・Geminiへの移行トレンドを把握することが実務のAI活用に役立つ。</div>
+    <div class="card-link">
+      <a href="https://techcrunch.com/2026/06/16/chatgpts-market-share-slips-below-50-for-first-time/" target="_blank" rel="noopener">
+        https://techcrunch.com/2026/06/16/chatgpts-market-share-slips-below-50-for-first-time/
+      </a>
+    </div>
+  </article>
+
+</main>
+
+<footer>
+  AI News Daily &middot; Generated by Claude &middot; kakkey-genious
+</footer>
+
+</body>
+</html>
